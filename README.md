@@ -15,6 +15,12 @@ Here you'll find code experiments, creative ideas, and curious projects.
 
 🌱 About Me
 
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Metadore&show_icons=true&theme=tokyonight)
+![GitHub Streak](https://streak-stats.demolab.com?user=Metadore&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Metadore&layout=compact&theme=tokyonight)
+
 Hi! I'm Arcoistry 👋
 
 I enjoy exploring the intersection of:
@@ -30,9 +36,6 @@ This account is my personal laboratory where I try new technologies and document
 
 ---
 
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Metadore&show_icons=true&theme=tokyonight)
 
 🌿 What You'll Find Here
 
