@@ -1,4 +1,6 @@
-<img src="WhatsApp Image 2026-03-06 at 8.26.15 PM.jpeg" width="100%">
+<p align="center">
+<img src="https://github.com/metadore/Metadore/blob/main/WhatsApp%20Image%202026-03-06%20at%208.26.15%20PM.jpeg" width="100%">
+</p>
 
 
 🌳 Metadore
@@ -21,6 +23,7 @@ Here you'll find code experiments, creative ideas, and curious projects.
 🌱 About Me
 
 ## 📊 GitHub Stats
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Metadore&theme=tokyo-night)
 
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Metadore&theme=tokyonight)
@@ -44,6 +47,20 @@ This account is my personal laboratory where I try new technologies and document
 
 🌿 What You'll Find Here
 
+## 🚀 Featured Experiments
+
+<p align="center">
+
+<a href="https://github.com/Metadore">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Metadore&repo=REPO_NAME&theme=tokyonight&border_radius=20">
+</a>
+
+<a href="https://github.com/Metadore">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Metadore&repo=REPO_NAME2&theme=tokyonight&border_radius=20">
+</a>
+
+</p>
+
 🌱 Small experiments
 🌱 Random coding projects
 🌱 Learning repositories
@@ -57,6 +74,14 @@ Not everything here will be perfect — but everything here will be real learnin
 
 ⚗️ Current Interests
 
+## ⚡ Tech Stack
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=python,cpp,git,github,vscode,html,css,js" />
+
+</p>
+
 - Software Development
 - Creative Coding
 - AI-assisted development
@@ -67,6 +92,12 @@ Not everything here will be perfect — but everything here will be real learnin
 ---
 
 🌳 Philosophy of Metadore
+
+## 🧠 AI Brain Processing...
+
+<p align="center">
+<img src="https://media.giphy.com/media/l3vR85PnGsBwu1PFK/giphy.gif" width="250">
+</p>
 
 «Learn by building.
 Build by experimenting.
