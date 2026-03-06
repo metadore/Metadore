@@ -1,8 +1,11 @@
 <img src="WhatsApp Image 2026-03-06 at 8.26.15 PM.jpeg" width="100%">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1f4037,100:99f2c8&height=220&section=header&text=Metadore&fontSize=60&fontColor=ffffff&animation=fadeIn)
+
 🌳 Metadore
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=24&duration=3500&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Chemistry+⚗️+%2B+Art+🎨+%2B+Technology;Curiosity+Driven+Learning;Growing+The+Metadore+Tree)
+<p align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2R6N2t1d2Q5c3N5M2F3cHV3M2xjMGZ1eTNxN3Y3aG42d2Y0ZzV1aiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7btPCcdNniyf0ArS/giphy.gif" width="200">
+</p>
 
 «A growing tree of experiments, ideas, and learning.»
 
