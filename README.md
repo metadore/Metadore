@@ -1,3 +1,5 @@
+<img src="WhatsApp Image 2026-03-06 at 8.26.15 PM.jpeg" width="100%">
+
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1f4037,100:99f2c8&height=220&section=header&text=Metadore&fontSize=60&fontColor=ffffff&animation=fadeIn)
 🌳 Metadore
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=24&duration=3500&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Chemistry+⚗️+%2B+Art+🎨+%2B+Technology;Curiosity+Driven+Learning;Growing+The+Metadore+Tree)
@@ -17,9 +19,9 @@ Here you'll find code experiments, creative ideas, and curious projects.
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Metadore&show_icons=true&theme=tokyonight)
+
 ![GitHub Streak](https://streak-stats.demolab.com?user=Metadore&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Metadore&layout=compact&theme=tokyonight)
+
 
 Hi! I'm Arcoistry 👋
 
