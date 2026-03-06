@@ -1,6 +1,9 @@
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1f4037,100:99f2c8&height=220&section=header&text=Metadore&fontSize=60&fontColor=ffffff&animation=fadeIn)
 🌳 Metadore
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=24&duration=3500&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Chemistry+⚗️+%2B+Art+🎨+%2B+Technology;Curiosity+Driven+Learning;Growing+The+Metadore+Tree)
 
 «A growing tree of experiments, ideas, and learning.»
+
 
 Welcome to Metadore — my digital tree of exploration.
 This space is where I experiment, build, break things, learn, and grow as a developer.
@@ -26,6 +29,10 @@ I love experimenting with ideas, building random tools, and understanding how th
 This account is my personal laboratory where I try new technologies and document what I learn.
 
 ---
+
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Metadore&show_icons=true&theme=tokyonight)
 
 🌿 What You'll Find Here
 
