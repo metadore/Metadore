@@ -91,3 +91,4 @@ But all of them help me grow as a developer.
 ---
 
 ⭐ If you like interesting experiments or creative projects, feel free to explore!
+![Snake animation](https://github.com/Metadore/Metadore/blob/output/github-contribution-grid-snake.svg)
