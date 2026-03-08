@@ -49,17 +49,7 @@ This account is my personal laboratory where I try new technologies and document
 
 ## 🚀 Featured Experiments
 
-<p align="center">
 
-<a href="https://github.com/Metadore">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Metadore&repo=REPO_NAME&theme=tokyonight&border_radius=20">
-</a>
-
-<a href="https://github.com/Metadore">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Metadore&repo=REPO_NAME2&theme=tokyonight&border_radius=20">
-</a>
-
-</p>
 
 🌱 Small experiments
 🌱 Random coding projects
