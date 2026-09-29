@@ -1,283 +1,207 @@
-<svg width="1200" height="500"
-viewBox="0 0 1200 500"
-xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="500" viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
 
-<filter id="glow">
-<feGaussianBlur stdDeviation="4" result="blur"/>
-<feMerge>
-<feMergeNode in="blur"/>
-<feMergeNode in="SourceGraphic"/>
-</feMerge>
-</filter>
+  <!-- BACKGROUND GRADIENTS -->
+  <linearGradient id="bgGradient" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#03080e"/>
+    <stop offset="50%" stop-color="#081420"/>
+    <stop offset="100%" stop-color="#03070d"/>
+  </linearGradient>
+
+  <!-- GLOW FILTERS -->
+  <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <filter id="strongGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="10" result="blur1"/>
+    <feGaussianBlur stdDeviation="4" result="blur2"/>
+    <feMerge>
+      <feMergeNode in="blur1"/>
+      <feMergeNode in="blur2"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <!-- RADIAL NODE GRADIENT -->
+  <radialGradient id="nodeBg" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#0d2335"/>
+    <stop offset="100%" stop-color="#040a10"/>
+  </radialGradient>
 
 </defs>
 
-<!-- BACKGROUND -->
-
-<rect width="1200"
-height="500"
-rx="25"
-fill="#050b12"
-stroke="#203a43"
-stroke-width="2"/>
-
-<!-- TITLE -->
-
-<text x="600"
-y="55"
-text-anchor="middle"
-fill="white"
-font-family="monospace"
-font-size="28"
-font-weight="bold">
-
-METADORE // ACHIEVEMENTS
-
-</text>
-
-<text x="600"
-y="80"
-text-anchor="middle"
-fill="#36BCF7"
-font-family="monospace"
-font-size="11">
-
-ACHIEVEMENT DATABASE // ONLINE
-
-</text>
-
-<!-- ACHIEVEMENT 1 -->
-
-<circle cx="180"
-cy="200"
-r="65"
-fill="#07111a"
-stroke="#36BCF7"
-stroke-width="4"
-filter="url(#glow)">
-
-<animate
-attributeName="r"
-values="65;70;65"
-dur="2s"
-repeatCount="indefinite"/>
-
-</circle>
-
-<text x="180"
-y="205"
-text-anchor="middle"
-font-size="34">
-
-🏆
-
-</text>
-
-<text x="180"
-y="300"
-text-anchor="middle"
-fill="white"
-font-family="monospace"
-font-size="14">
-
-FIRST BUILD
-
-</text>
-
-<text x="180"
-y="325"
-text-anchor="middle"
-fill="#7d8c99"
-font-family="monospace"
-font-size="10">
-
-Turning ideas into projects
-
-</text>
-
-<!-- ACHIEVEMENT 2 -->
-
-<circle cx="420"
-cy="200"
-r="65"
-fill="#07111a"
-stroke="#00FF9C"
-stroke-width="4"
-filter="url(#glow)">
-
-<animate
-attributeName="stroke-width"
-values="4;6;4"
-dur="2.4s"
-repeatCount="indefinite"/>
-
-</circle>
-
-<text x="420"
-y="205"
-text-anchor="middle"
-font-size="34">
-
-🔬
-
-</text>
-
-<text x="420"
-y="300"
-text-anchor="middle"
-fill="white"
-font-family="monospace"
-font-size="14">
-
-SCIENCE EXPLORER
-
-</text>
-
-<text x="420"
-y="325"
-text-anchor="middle"
-fill="#7d8c99"
-font-family="monospace"
-font-size="10">
-
-Science + technology
-
-</text>
-
-<!-- ACHIEVEMENT 3 -->
-
-<circle cx="660"
-cy="200"
-r="65"
-fill="#07111a"
-stroke="#b56cff"
-stroke-width="4"
-filter="url(#glow)">
-
-<animate
-attributeName="r"
-values="65;70;65"
-dur="2.8s"
-repeatCount="indefinite"/>
-
-</circle>
-
-<text x="660"
-y="205"
-text-anchor="middle"
-font-size="34">
-
-🤖
-
-</text>
-
-<text x="660"
-y="300"
-text-anchor="middle"
-fill="white"
-font-family="monospace"
-font-size="14">
-
-AI EXPLORER
-
-</text>
-
-<text x="660"
-y="325"
-text-anchor="middle"
-fill="#7d8c99"
-font-family="monospace"
-font-size="10">
-
-Exploring intelligent systems
-
-</text>
-
-<!-- ACHIEVEMENT 4 -->
-
-<circle cx="900"
-cy="200"
-r="65"
-fill="#07111a"
-stroke="#ff66cc"
-stroke-width="4"
-filter="url(#glow)">
-
-<animate
-attributeName="stroke-width"
-values="4;6;4"
-dur="3s"
-repeatCount="indefinite"/>
-
-</circle>
-
-<text x="900"
-y="205"
-text-anchor="middle"
-font-size="34">
-
-🎨
-
-</text>
-
-<text x="900"
-y="300"
-text-anchor="middle"
-fill="white"
-font-family="monospace"
-font-size="14">
-
-CREATIVE ENGINEER
-
-</text>
-
-<text x="900"
-y="325"
-text-anchor="middle"
-fill="#7d8c99"
-font-family="monospace"
-font-size="10">
-
-Design + technology
-
-</text>
-
-<!-- PROGRESS -->
-
-<text x="600"
-y="390"
-text-anchor="middle"
-fill="#36BCF7"
-font-family="monospace"
-font-size="13">
-
-ACHIEVEMENT PROGRESS
-
-</text>
-
-<rect x="300"
-y="420"
-width="600"
-height="8"
-rx="4"
-fill="#17232d"/>
-
-<rect x="300"
-y="420"
-width="360"
-height="8"
-rx="4"
-fill="#36BCF7"
-filter="url(#glow)">
-
-<animate
-attributeName="width"
-values="300;360;300"
-dur="3s"
-repeatCount="indefinite"/>
-
+<!-- BACKGROUND CARD -->
+<rect width="1200" height="500" rx="20" fill="url(#bgGradient)" stroke="#1a3545" stroke-width="2"/>
+
+<!-- HUD GRID & CROSSHAIRS BACKGROUND -->
+<g opacity="0.08" stroke="#36BCF7" stroke-width="1">
+  <line x1="0" y1="100" x2="1200" y2="100"/>
+  <line x1="0" y1="200" x2="1200" y2="200"/>
+  <line x1="0" y1="300" x2="1200" y2="300"/>
+  <line x1="0" y1="400" x2="1200" y2="400"/>
+
+  <line x1="180" y1="0" x2="180" y2="500"/>
+  <line x1="420" y1="0" x2="420" y2="500"/>
+  <line x1="660" y1="0" x2="660" y2="500"/>
+  <line x1="900" y1="0" x2="900" y2="500"/>
+</g>
+
+<!-- CORNER HUD MARKS -->
+<path d="M 30 50 L 30 30 L 50 30" stroke="#36BCF7" stroke-width="2" fill="none" opacity="0.6"/>
+<path d="M 1170 50 L 1170 30 L 1150 30" stroke="#36BCF7" stroke-width="2" fill="none" opacity="0.6"/>
+<path d="M 30 450 L 30 470 L 50 470" stroke="#36BCF7" stroke-width="2" fill="none" opacity="0.6"/>
+<path d="M 1170 450 L 1170 470 L 1150 470" stroke="#36BCF7" stroke-width="2" fill="none" opacity="0.6"/>
+
+<!-- TITLE HUD -->
+<g font-family="monospace" text-anchor="middle">
+  <text x="600" y="48" fill="#ffffff" font-size="26" font-weight="bold" letter-spacing="4" filter="url(#softGlow)">METADORE // TARGET ACQUIRED</text>
+  <text x="600" y="68" fill="#36BCF7" font-size="10" letter-spacing="2" opacity="0.8"></text>
+</g>
+
+<!-- AMBIENT SCANNING LINE -->
+<rect x="50" y="80" width="1100" height="1.5" fill="#36BCF7" opacity="0.25">
+  <animate attributeName="y" values="80;440;80" dur="5s" repeatCount="indefinite"/>
 </rect>
+
+<!-- ================= ACHIEVEMENT 1: FIRST BUILD (CROSSHAIR TARGET) ================= -->
+<g transform="translate(180, 200)">
+  <!-- Outer Target Ring -->
+  <circle r="65" fill="url(#nodeBg)" stroke="#36BCF7" stroke-width="2" opacity="0.4"/>
+  <circle r="55" fill="none" stroke="#36BCF7" stroke-width="3" filter="url(#softGlow)">
+    <animate attributeName="r" values="55;60;55" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Rotating Reticle Arc -->
+  <circle r="42" fill="none" stroke="#36BCF7" stroke-width="1.5" stroke-dasharray="25 15">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Vector Target Sight Icon (No Emoji) -->
+  <g stroke="#36BCF7" stroke-width="2.5" fill="none" filter="url(#softGlow)">
+    <circle r="16" opacity="0.8"/>
+    <circle r="5" fill="#36BCF7"/>
+    <line x1="-24" y1="0" x2="-10" y2="0"/>
+    <line x1="10" y1="0" x2="24" y2="0"/>
+    <line x1="0" y1="-24" x2="0" y2="-10"/>
+    <line x1="0" y1="10" x2="0" y2="24"/>
+  </g>
+
+  <!-- Text Labels -->
+  <text x="0" y="100" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold" letter-spacing="1">FIRST BUILD</text>
+  <text x="0" y="122" text-anchor="middle" fill="#7d8c99" font-family="monospace" font-size="10">Turning ideas into projects</text>
+</g>
+
+<!-- ================= ACHIEVEMENT 2: SCIENCE EXPLORER (CROSSHAIR TARGET) ================= -->
+<g transform="translate(420, 200)">
+  <!-- Outer Target Ring -->
+  <circle r="65" fill="url(#nodeBg)" stroke="#00FF9C" stroke-width="2" opacity="0.4"/>
+  <circle r="55" fill="none" stroke="#00FF9C" stroke-width="3" filter="url(#softGlow)">
+    <animate attributeName="stroke-width" values="3;5;3" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Rotating Reticle Arc -->
+  <circle r="42" fill="none" stroke="#00FF9C" stroke-width="1.5" stroke-dasharray="40 10">
+    <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Vector Crosshair Icon (No Emoji) -->
+  <g stroke="#00FF9C" stroke-width="2" fill="none" filter="url(#softGlow)">
+    <circle r="20" stroke-dasharray="6 4"/>
+    <circle r="8" fill="#00FF9C"/>
+    <path d="M -22 -22 L -14 -14 M 22 -22 L 14 -14 M -22 22 L -14 14 M 22 22 L 14 14"/>
+  </g>
+
+  <!-- Text Labels -->
+  <text x="0" y="100" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold" letter-spacing="1">SCIENCE EXPLORER</text>
+  <text x="0" y="122" text-anchor="middle" fill="#7d8c99" font-family="monospace" font-size="10">Science + technology</text>
+</g>
+
+<!-- ================= ACHIEVEMENT 3: AI EXPLORER (RADAR LOCK TARGET) ================= -->
+<g transform="translate(660, 200)">
+  <!-- Outer Target Ring -->
+  <circle r="65" fill="url(#nodeBg)" stroke="#b56cff" stroke-width="2" opacity="0.4"/>
+  <circle r="55" fill="none" stroke="#b56cff" stroke-width="3" filter="url(#softGlow)">
+    <animate attributeName="r" values="55;60;55" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Square HUD Lock Frame -->
+  <rect x="-26" y="-26" width="52" height="52" fill="none" stroke="#b56cff" stroke-width="1.5" stroke-dasharray="12 8">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Vector Radar/AI Core Icon (No Emoji) -->
+  <g stroke="#b56cff" stroke-width="2" fill="none" filter="url(#softGlow)">
+    <polygon points="0,-16 14,10 -14,10"/>
+    <circle cx="0" cy="0" r="4" fill="#b56cff"/>
+  </g>
+
+  <!-- Text Labels -->
+  <text x="0" y="100" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold" letter-spacing="1">AI EXPLORER</text>
+  <text x="0" y="122" text-anchor="middle" fill="#7d8c99" font-family="monospace" font-size="10">Exploring intelligent systems</text>
+</g>
+
+<!-- ================= ACHIEVEMENT 4: CREATIVE ENGINEER (SNIPER SCOPE TARGET) ================= -->
+<g transform="translate(900, 200)">
+  <!-- Outer Target Ring -->
+  <circle r="65" fill="url(#nodeBg)" stroke="#ff66cc" stroke-width="2" opacity="0.4"/>
+  <circle r="55" fill="none" stroke="#ff66cc" stroke-width="3" filter="url(#softGlow)">
+    <animate attributeName="stroke-width" values="3;5;3" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Outer Corner Brackets -->
+  <path d="M -30 -18 L -30 -30 L -18 -30" stroke="#ff66cc" stroke-width="2" fill="none"/>
+  <path d="M 30 -18 L 30 -30 L 18 -30" stroke="#ff66cc" stroke-width="2" fill="none"/>
+  <path d="M -30 18 L -30 30 L -18 30" stroke="#ff66cc" stroke-width="2" fill="none"/>
+  <path d="M 30 18 L 30 30 L 18 30" stroke="#ff66cc" stroke-width="2" fill="none"/>
+
+  <!-- Vector Scope Crosshair Icon (No Emoji) -->
+  <g stroke="#ff66cc" stroke-width="2" fill="none" filter="url(#softGlow)">
+    <circle r="14"/>
+    <circle r="3" fill="#ff66cc"/>
+    <line x1="-22" y1="0" x2="22" y2="0"/>
+    <line x1="0" y1="-22" x2="0" y2="22"/>
+  </g>
+
+  <!-- Text Labels -->
+  <text x="0" y="100" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold" letter-spacing="1">CREATIVE ENGINEER</text>
+  <text x="0" y="122" text-anchor="middle" fill="#7d8c99" font-family="monospace" font-size="10">Design + technology</text>
+</g>
+
+<!-- PROGRESS BAR / AMMO HUD -->
+<g font-family="monospace">
+  <text x="600" y="382" text-anchor="middle" fill="#36BCF7" font-size="12" letter-spacing="2" filter="url(#softGlow)">
+    TARGET LOCK PROGRESS // 60% COMPLETED
+  </text>
+
+  <!-- Track Frame -->
+  <rect x="300" y="402" width="600" height="12" rx="6" fill="#081520" stroke="#1d3b4e" stroke-width="1.5"/>
+
+  <!-- Progress Fill -->
+  <rect x="304" y="405" width="352" height="6" rx="3" fill="#36BCF7" filter="url(#strongGlow)">
+    <animate attributeName="width" values="300;352;300" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Segment Markers for Shooting Game Vibe -->
+  <g stroke="#03080e" stroke-width="2" opacity="0.6">
+    <line x1="420" y1="402" x2="420" y2="414"/>
+    <line x1="540" y1="402" x2="540" y2="414"/>
+    <line x1="660" y1="402" x2="660" y2="414"/>
+    <line x1="780" y1="402" x2="780" y2="414"/>
+  </g>
+</g>
+
+<!-- FOOTER HUD AMMO / ACCURACY METRICS -->
+<g font-family="monospace" font-size="10" fill="#36BCF7" opacity="0.7">
+  <text x="50" y="465">ACCURACY: 98.4%</text>
+  <text x="50" y="480">AMMO: UNLIMITED</text>
+  <text x="1150" y="465" text-anchor="end">MODE: TACTICAL_HUD</text>
+  <text x="1150" y="480" text-anchor="end">STATUS: LOCKED</text>
+</g>
 
 </svg>
