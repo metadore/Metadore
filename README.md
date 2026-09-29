@@ -50,11 +50,11 @@ No safety rails. No escape route.
 
 | MUTATION ANGLE        | THREAT LEVEL      |
 | --------------------- | ----------------- |
-| 🕳️ Void Curiosity    | `██████████ 100%` |
+| 🕳️ Void Curiosity    | `██████████ 100%`  |
 | 🧪 Mad Science        | `█████████░ 90%`  |
 | ⚙️ Cyber-Mechanical   | `████████░░ 80%`  |
 | 🧠 Neural Aesthetic   | `█████████░ 90%`  |
-| 👁️ Machine Telepathy | `███████░░░ 70%`  |
+| 👁️ Machine Telepathy | `███████░░░ 70%`   |
 | ☣️ Unorthodox Logic   | `███████░░░ 70%`  |
 
 ```text
@@ -178,7 +178,7 @@ EVOLUTION XP : ███████░░░░░░░ [SPINNING WEBS...]
 ║ ██████████████████████████████ 100%          ║
 ║                                              ║
 ║ SANITY BUFFER                                ║
-║ ███░░░░░░░░░░░░░░░░░░░░░░░░░  12%           ║
+║ ███░░░░░░░░░░░░░░░░░░░░░░░░░  12%            ║
 ║                                              ║
 ║ VOID SIGNAL                                  ║
 ║ ██████████████████████████████ ???%          ║
@@ -205,19 +205,19 @@ EVOLUTION XP : ███████░░░░░░░ [SPINNING WEBS...]
 ║              TROPHY ARCHIVE                  ║
 ╠══════════════════════════════════════════════╣
 ║                                              ║
-║ 🕷️ WEB WEAVER                                ║
+║ 🕷️ WEB WEAVER                               ║
 ║    Created something that should not exist.  ║
 ║                                              ║
-║ 🧪 MAD SCIENTIST                             ║
+║ 🧪 MAD SCIENTIST                            ║
 ║    Experimented before asking why.           ║
 ║                                              ║
-║ 🤖 SYNTHETIC MIND                            ║
+║ 🤖 SYNTHETIC MIND                           ║
 ║    Taught machines something strange.        ║
 ║                                              ║
-║ ⚙️ SYSTEM BREAKER                            ║
+║ ⚙️ SYSTEM BREAKER                           ║
 ║    Found a bug. Broke it. Fixed it.          ║
 ║                                              ║
-║ 🧠 NEURAL MUTATION                           ║
+║ 🧠 NEURAL MUTATION                          ║
 ║    Learned something completely unexpected.  ║
 ║                                              ║
 ╚══════════════════════════════════════════════╝
@@ -227,10 +227,10 @@ EVOLUTION XP : ███████░░░░░░░ [SPINNING WEBS...]
 
 # 🧬 SLIME-LEVELS & VITAL SIGNS
 
-| SYSTEM                      | STATUS            |
-| --------------------------- | ----------------- |
-| 🧠 Neural Activity          | `█████████░ 90%`  |
-| 🕸️ Web Density             | `██████████ 100%` |
+| SYSTEM                      | STATUS             |
+| --------------------------- | -----------------  |
+| 🧠 Neural Activity         | `█████████░ 90%`  |
+| 🕸️ Web Density             | `██████████ 100%`  |
 | 🧪 Experimental Instability | `████████░░ 80%`  |
 | 🤖 Machine Consciousness    | `███████░░░ 70%`  |
 | ☣️ Containment Integrity    | `███░░░░░░░ 30%`  |
