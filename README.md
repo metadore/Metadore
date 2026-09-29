@@ -48,14 +48,14 @@ No safety rails. No escape route.
 
 # 🧬 ANOMALOUS SPECIMEN DOSSIER
 
-| MUTATION ANGLE | THREAT LEVEL |
-|:---|:---:|
-| 🕳️ Void Curiosity | `██████████ 100%` |
-| 🧪 Mad Science | `█████████░ 90%` |
-| ⚙️ Cyber-Mechanical | `████████░░ 80%` |
-| 🧠 Neural Aesthetic | `█████████░ 90%` |
-| 👁️ Machine Telepathy | `███████░░░ 70%` |
-| ☣️ Unorthodox Logic | `███████░░░ 70%` |
+| MUTATION ANGLE        | THREAT LEVEL      |
+| --------------------- | ----------------- |
+| 🕳️ Void Curiosity    | `██████████ 100%` |
+| 🧪 Mad Science        | `█████████░ 90%`  |
+| ⚙️ Cyber-Mechanical   | `████████░░ 80%`  |
+| 🧠 Neural Aesthetic   | `█████████░ 90%`  |
+| 👁️ Machine Telepathy | `███████░░░ 70%`  |
+| ☣️ Unorthodox Logic   | `███████░░░ 70%`  |
 
 ```text
 SPECIES      : TECHNO-ARACHNID / SLIME-ARCHITECT
@@ -71,15 +71,13 @@ EVOLUTION XP : ███████░░░░░░░ [SPINNING WEBS...]
 <div align="center">
 
 <img src="./metadore-skill-tree.svg"
-     width="100%"
-     alt="Metadore Infestation Skill Tree"/>
+  width="100%"
+  alt="Metadore Infestation Skill Tree"/>
 
 </div>
 
 > **Every repo is an egg sac.**
->
 > **Every commit is a venomous rewrite.**
->
 > **Every system crash feeds the spider nest.**
 
 ---
@@ -117,15 +115,15 @@ EVOLUTION XP : ███████░░░░░░░ [SPINNING WEBS...]
 
 # ☣️ THE TOXIC OUBLIETTE
 
-| SECTOR | ANOMALY TYPE |
-|:---|:---|
-| 💻 CODE | Dark Sorcery & Byte Manipulation |
-| 🤖 AI | Synthetic Intelligence & Ghostly Mimicry |
-| 🧪 LAB | Weird Physics & Slime Alchemy |
-| 🎨 ART | High-Octane Cyber Nightmares |
-| 🌐 WEB | Sticky Web Realm Structures |
-| ⚙️ TOOL | Reality-Altering Developer Weapons |
-| ☢️ HAZARD | Highly Volatile Forbidden Rituals |
+| SECTOR    | ANOMALY TYPE                             |
+| --------- | ---------------------------------------- |
+| 💻 CODE   | Dark Sorcery & Byte Manipulation         |
+| 🤖 AI     | Synthetic Intelligence & Ghostly Mimicry |
+| 🧪 LAB    | Weird Physics & Slime Alchemy            |
+| 🎨 ART    | High-Octane Cyber Nightmares             |
+| 🌐 WEB    | Sticky Web Realm Structures              |
+| ⚙️ TOOL   | Reality-Altering Developer Weapons       |
+| ☢️ HAZARD | Highly Volatile Forbidden Rituals        |
 
 ---
 
@@ -143,16 +141,16 @@ EVOLUTION XP : ███████░░░░░░░ [SPINNING WEBS...]
 ║    HTML • CSS • JavaScript                   ║
 ║                                              ║
 ║ SYNAPTIC PARASITISM                          ║
-║    Prototyping Artificial Intelligence...    ║
+║    Prototyping Artificial Consciousness...   ║
 ║                                              ║
 ║ SILICON TORTURE                              ║
-║    Arduino • Embedded Systems               ║
+║    Arduino • Micro-Solder • Cyber-Hardware   ║
 ║                                              ║
 ║ BATTLE RIG                                   ║
-║    Git • GitHub • VS Code                    ║
+║    Git • GitHub • VS Code Terminal           ║
 ║                                              ║
 ║ ALCHEMICAL COMPUTING                         ║
-║    Algorithms • Data • Simulation            ║
+║    Algorithmic Chaos & Simulating Horror     ║
 ║                                              ║
 ╚══════════════════════════════════════════════╝
 ```
@@ -164,10 +162,31 @@ EVOLUTION XP : ███████░░░░░░░ [SPINNING WEBS...]
 <div align="center">
 
 <img src="./metadore-terminal.svg"
-     width="100%"
-     alt="Metadore Neural Containment Terminal"/>
+  width="100%"
+  alt="Metadore Neural Containment Terminal"/>
 
 </div>
+
+```text
+╔══════════════════════════════════════════════╗
+║             NEURAL CONTAINMENT               ║
+╠══════════════════════════════════════════════╣
+║                                              ║
+║ STATUS : CRITICAL                            ║
+║                                              ║
+║ CURIOSITY LEVEL                              ║
+║ ██████████████████████████████ 100%          ║
+║                                              ║
+║ SANITY BUFFER                                ║
+║ ███░░░░░░░░░░░░░░░░░░░░░░░░░  12%           ║
+║                                              ║
+║ VOID SIGNAL                                  ║
+║ ██████████████████████████████ ???%          ║
+║                                              ║
+║ CONTAINMENT : FAILING                        ║
+║                                              ║
+╚══════════════════════════════════════════════╝
+```
 
 ---
 
@@ -176,23 +195,46 @@ EVOLUTION XP : ███████░░░░░░░ [SPINNING WEBS...]
 <div align="center">
 
 <img src="./metadore-achievements.svg"
-     width="100%"
-     alt="Metadore Trophies and Curses"/>
+  width="100%"
+  alt="Metadore Achievements"/>
 
 </div>
+
+```text
+╔══════════════════════════════════════════════╗
+║              TROPHY ARCHIVE                  ║
+╠══════════════════════════════════════════════╣
+║                                              ║
+║ 🕷️ WEB WEAVER                                ║
+║    Created something that should not exist.  ║
+║                                              ║
+║ 🧪 MAD SCIENTIST                             ║
+║    Experimented before asking why.           ║
+║                                              ║
+║ 🤖 SYNTHETIC MIND                            ║
+║    Taught machines something strange.        ║
+║                                              ║
+║ ⚙️ SYSTEM BREAKER                            ║
+║    Found a bug. Broke it. Fixed it.          ║
+║                                              ║
+║ 🧠 NEURAL MUTATION                           ║
+║    Learned something completely unexpected.  ║
+║                                              ║
+╚══════════════════════════════════════════════╝
+```
 
 ---
 
 # 🧬 SLIME-LEVELS & VITAL SIGNS
 
-| SYSTEM | STATUS |
-|:---|:---:|
-| 🧠 Neural Activity | `█████████░ 90%` |
-| 🕸️ Web Density | `██████████ 100%` |
-| 🧪 Experimental Instability | `████████░░ 80%` |
-| 🤖 Machine Consciousness | `███████░░░ 70%` |
-| ☣️ Containment Integrity | `███░░░░░░░ 30%` |
-| 🌀 Reality Stability | `████░░░░░░ 40%` |
+| SYSTEM                      | STATUS            |
+| --------------------------- | ----------------- |
+| 🧠 Neural Activity          | `█████████░ 90%`  |
+| 🕸️ Web Density             | `██████████ 100%` |
+| 🧪 Experimental Instability | `████████░░ 80%`  |
+| 🤖 Machine Consciousness    | `███████░░░ 70%`  |
+| ☣️ Containment Integrity    | `███░░░░░░░ 30%`  |
+| 🌀 Reality Stability        | `████░░░░░░ 40%`  |
 
 ---
 
@@ -201,8 +243,8 @@ EVOLUTION XP : ███████░░░░░░░ [SPINNING WEBS...]
 <div align="center">
 
 <img src="https://github.com/Metadore/Metadore/blob/output/github-contribution-grid-snake.svg"
-     width="100%"
-     alt="Metadore contribution infestation"/>
+  width="100%"
+  alt="GitHub contribution snake animation"/>
 
 <br>
 
@@ -247,12 +289,12 @@ THE CREATURE DEVOURS ALL SANITY.
               ???       ???       ???
 ```
 
-- 🧠 Self-modifying AI parasites
-- 🧪 Sci-Fi curses brought to reality
-- 🕸️ Infiltrating foreign codebases
-- 🌌 Cyberpunk visual interfaces
-- 🤖 Mind-machine interfaces
-- ☣️ Direct manifestations of **“what if we break this entirely?”**
+* 🧠 Self-modifying AI parasites
+* 🧪 Sci-Fi curses brought to reality
+* 🕸️ Infiltrating foreign codebases
+* 🌌 Cyberpunk visual interfaces
+* 🤖 Mind-machine interfaces
+* ☣️ Direct manifestations of **“what if we break this entirely?”**
 
 ---
 
@@ -285,8 +327,6 @@ You are not biologically prepared for these webs yet.
 
 # 🕷️ THE DARK MANIFESTO
 
-<div align="center">
-
 ### Synthesize over studying.
 
 ### Mutate over replicating.
@@ -295,13 +335,9 @@ You are not biologically prepared for these webs yet.
 
 ### Evolution > Perfection.
 
-<br>
-
 **The spider does not care if the web looks messy.**
 
 **It only demands that it traps everything.**
-
-</div>
 
 ---
 
@@ -311,14 +347,12 @@ You are not biologically prepared for these webs yet.
 
 <br><br>
 
-🕸️ **Traverse the web.**  
-🧪 **Infect yourself with curiosity.**  
+🕸️ **Traverse the web.**
+🧪 **Infect yourself with curiosity.**
 🧬 **Observe the mutation.**
 
 <br><br>
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=18&duration=3500&pause=900&color=66FF33&center=true&vCenter=true&width=700&lines=INFESTATION+CONTINUES...;NEW+MUTATION+DETECTED...;SYSTEM+CONTAINMENT+FAILED...;METADORE+IS+STILL+EVOLVING..."/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,35:4d0000,70:1a0033,100:000000&height=120&section=footer" width="100%"/>
 
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,35:4d0000,70:1a0033,100:000000&height=120&section=footer" width="100%"/>
