@@ -1,45 +1,57 @@
 <svg width="1200" height="650" viewBox="0 0 1200 650" xmlns="http://www.w3.org/2000/svg">
-
 <defs>
-
-  <!-- GRADIENTS -->
+  <!-- SPOOKY GRADIENTS -->
   <linearGradient id="bgGradient" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="#03080e"/>
-    <stop offset="50%" stop-color="#07131e"/>
-    <stop offset="100%" stop-color="#0a1926"/>
+    <stop offset="0%" stop-color="#020804"/>
+    <stop offset="50%" stop-color="#0b170e"/>
+    <stop offset="100%" stop-color="#010502"/>
   </linearGradient>
 
+  <radialGradient id="slimeNodeBg" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#183812"/>
+    <stop offset="70%" stop-color="#081806"/>
+    <stop offset="100%" stop-color="#020803"/>
+  </radialGradient>
+
   <linearGradient id="trunkGradient" x1="0%" y1="100%" x2="0%" y2="0%">
-    <stop offset="0%" stop-color="#00FF9C"/>
-    <stop offset="40%" stop-color="#36BCF7"/>
-    <stop offset="100%" stop-color="#b56cff"/>
+    <stop offset="0%" stop-color="#2d6e15"/>
+    <stop offset="40%" stop-color="#39ff14"/>
+    <stop offset="100%" stop-color="#ff0055"/>
   </linearGradient>
 
   <linearGradient id="techBranch" x1="100%" y1="100%" x2="0%" y2="0%">
-    <stop offset="0%" stop-color="#36BCF7"/>
-    <stop offset="100%" stop-color="#00f2ff"/>
+    <stop offset="0%" stop-color="#39ff14"/>
+    <stop offset="100%" stop-color="#183812"/>
   </linearGradient>
 
   <linearGradient id="scienceBranch" x1="0%" y1="100%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#36BCF7"/>
-    <stop offset="100%" stop-color="#00FF9C"/>
+    <stop offset="0%" stop-color="#39ff14"/>
+    <stop offset="100%" stop-color="#a3ff00"/>
   </linearGradient>
 
   <linearGradient id="artBranch" x1="100%" y1="100%" x2="0%" y2="0%">
-    <stop offset="0%" stop-color="#36BCF7"/>
-    <stop offset="100%" stop-color="#ff66cc"/>
+    <stop offset="0%" stop-color="#39ff14"/>
+    <stop offset="100%" stop-color="#ff0055"/>
   </linearGradient>
 
   <linearGradient id="webBranch" x1="0%" y1="100%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#36BCF7"/>
+    <stop offset="0%" stop-color="#39ff14"/>
     <stop offset="100%" stop-color="#b56cff"/>
   </linearGradient>
 
-  <!-- GLOW FILTERS -->
-  <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
-    <feGaussianBlur stdDeviation="6" result="blur"/>
+  <radialGradient id="eggGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#a3ff00"/>
+    <stop offset="50%" stop-color="#39ff14"/>
+    <stop offset="100%" stop-color="#052400"/>
+  </radialGradient>
+
+  <!-- GLOW & OOZE FILTERS -->
+  <filter id="slimeGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="6" result="blur1"/>
+    <feGaussianBlur stdDeviation="2" result="blur2"/>
     <feMerge>
-      <feMergeNode in="blur"/>
+      <feMergeNode in="blur1"/>
+      <feMergeNode in="blur2"/>
       <feMergeNode in="SourceGraphic"/>
     </feMerge>
   </filter>
@@ -54,19 +66,32 @@
     </feMerge>
   </filter>
 
-  <!-- NODE PATTERN DECORATION -->
-  <radialGradient id="nodeBg" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#0d2335"/>
-    <stop offset="100%" stop-color="#040a10"/>
-  </radialGradient>
+  <filter id="goo">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur" />
+    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+    <feBlend in="SourceGraphic" in2="goo" />
+  </filter>
 
+  <!-- SPIDER LEGS DEF -->
+  <g id="spiderLegs" stroke="#1d2d1f" stroke-width="3" fill="none" stroke-linecap="round">
+    <!-- Left Legs -->
+    <path d="M -10 -5 C -25 -20, -35 -20, -45 -10"/>
+    <path d="M -12 0 C -30 -10, -42 -5, -50 8"/>
+    <path d="M -12 5 C -30 10, -42 18, -48 30"/>
+    <path d="M -10 10 C -25 25, -35 35, -40 45"/>
+    <!-- Right Legs -->
+    <path d="M 10 -5 C 25 -20, 35 -20, 45 -10"/>
+    <path d="M 12 0 C 30 -10, 42 -5, 50 8"/>
+    <path d="M 12 5 C 30 10, 42 18, 48 30"/>
+    <path d="M 10 10 C 25 25, 35 35, 40 45"/>
+  </g>
 </defs>
 
-<!-- BACKGROUND -->
-<rect width="1200" height="650" rx="20" fill="url(#bgGradient)" stroke="#1a3545" stroke-width="2"/>
+<!-- BACKGROUND CARD -->
+<rect width="1200" height="650" rx="20" fill="url(#bgGradient)" stroke="#1a381e" stroke-width="3"/>
 
-<!-- GRID -->
-<g opacity="0.05" stroke="#36BCF7" stroke-width="1">
+<!-- HAUNTED BACKGROUND GRID (WEBBED/CRACKED LOOK) -->
+<g opacity="0.12" stroke="#39ff14" stroke-width="1" stroke-dasharray="8 4">
   <line x1="0" y1="100" x2="1200" y2="100"/>
   <line x1="0" y1="200" x2="1200" y2="200"/>
   <line x1="0" y1="300" x2="1200" y2="300"/>
@@ -80,8 +105,8 @@
   <line x1="1050" y1="0" x2="1050" y2="650"/>
 </g>
 
-<!-- AMBIENT PARTICLES -->
-<g fill="#36BCF7">
+<!-- TOXIC AMBIENT PARTICLES -->
+<g fill="#39ff14">
   <circle cx="120" cy="140" r="2.5"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="2.2s" repeatCount="indefinite"/></circle>
   <circle cx="1060" cy="130" r="2.5"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="3.1s" repeatCount="indefinite"/></circle>
   <circle cx="940" cy="480" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" repeatCount="indefinite"/></circle>
@@ -92,143 +117,263 @@
   <circle cx="620" cy="340" r="2"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.9s" repeatCount="indefinite"/></circle>
 </g>
 
-<!-- SCANNING LINE -->
-<rect x="80" y="80" width="1040" height="1.5" fill="#36BCF7" opacity="0.2">
-  <animate attributeName="y" values="80;570;80" dur="6s" repeatCount="indefinite"/>
-</rect>
+<!-- CORNER BONE/COBWEB MARKS -->
+<path d="M 20 60 L 20 20 L 60 20 M 20 20 L 50 50 M 20 35 Q 35 35 35 20 M 20 48 Q 48 48 48 20" stroke="#39ff14" stroke-width="2" fill="none" opacity="0.4"/>
+<path d="M 1180 60 L 1180 20 L 1140 20 M 1180 20 L 1150 50 M 1180 35 Q 1165 35 1165 20 M 1180 48 Q 1152 48 1152 20" stroke="#39ff14" stroke-width="2" fill="none" opacity="0.4"/>
+<path d="M 20 590 L 20 630 L 60 630 M 20 630 L 50 600" stroke="#39ff14" stroke-width="2" fill="none" opacity="0.4"/>
+<path d="M 1180 590 L 1180 630 L 1140 630 M 1180 630 L 1150 600" stroke="#39ff14" stroke-width="2" fill="none" opacity="0.4"/>
 
-<!-- TITLE BLOCK -->
+<!-- SPOOKY TITLE -->
 <g font-family="monospace" text-anchor="middle">
-  <text x="600" y="48" fill="#ffffff" font-size="26" font-weight="bold" letter-spacing="4" filter="url(#softGlow)">METADORE // SKILL TREE</text>
-  <text x="600" y="68" fill="#36BCF7" font-size="10" letter-spacing="2" opacity="0.8"></text>
+  <text x="600" y="48" fill="#39ff14" font-size="24" font-weight="bold" letter-spacing="4" filter="url(#slimeGlow)">METADORE // SKILL TREE</text>
+  <text x="600" y="68" fill="#ff0055" font-size="10" letter-spacing="3" opacity="0.9"></text>
 </g>
 
-<!-- ROOTS SYSTEM -->
+<!-- ROOTS SYSTEM (GAUNT BONES/TWISTED THORNS) -->
 <g fill="none" stroke-linecap="round" opacity="0.6">
-  <path d="M600 580 C500 600 380 615 260 625" stroke="#00FF9C" stroke-width="6" filter="url(#softGlow)"/>
-  <path d="M600 580 C700 600 820 615 940 625" stroke="#00FF9C" stroke-width="6" filter="url(#softGlow)"/>
-  <path d="M580 580 C520 605 440 620 370 635" stroke="#36BCF7" stroke-width="4"/>
-  <path d="M620 580 C680 605 760 620 830 635" stroke="#36BCF7" stroke-width="4"/>
-  <path d="M595 580 C560 610 520 625 480 640" stroke="#00FF9C" stroke-width="2.5"/>
-  <path d="M605 580 C640 610 680 625 720 640" stroke="#00FF9C" stroke-width="2.5"/>
+  <path d="M600 580 C500 600 380 615 260 625" stroke="#39ff14" stroke-width="6" stroke-dasharray="10 5" filter="url(#strongGlow)"/>
+  <path d="M600 580 C700 600 820 615 940 625" stroke="#39ff14" stroke-width="6" stroke-dasharray="10 5" filter="url(#strongGlow)"/>
+  <path d="M580 580 C520 605 440 620 370 635" stroke="#183812" stroke-width="4"/>
+  <path d="M620 580 C680 605 760 620 830 635" stroke="#183812" stroke-width="4"/>
+  <path d="M595 580 C560 610 520 625 480 640" stroke="#39ff14" stroke-width="2.5"/>
+  <path d="M605 580 C640 610 680 625 720 640" stroke="#39ff14" stroke-width="2.5"/>
 </g>
+
+<!-- DRIPPING SLIME CURTAIN (TOP) -->
+<path d="M 0 0 L 1200 0 L 1200 15 Q 1150 35 1100 12 T 1000 25 T 900 10 T 800 40 T 700 15 T 600 30 T 500 12 T 400 35 T 300 15 T 200 25 T 100 10 T 0 20 Z" fill="#39ff14" opacity="0.3" filter="url(#goo)">
+  <animate attributeName="d" 
+    values="M 0 0 L 1200 0 L 1200 15 Q 1150 35 1100 12 T 1000 25 T 900 10 T 800 40 T 700 15 T 600 30 T 500 12 T 400 35 T 300 15 T 200 25 T 100 10 T 0 20 Z;
+            M 0 0 L 1200 0 L 1200 25 Q 1150 15 1100 30 T 1000 10 T 900 35 T 800 15 T 700 40 T 600 12 T 500 30 T 400 15 T 300 35 T 200 10 T 100 25 T 0 12 Z;
+            M 0 0 L 1200 0 L 1200 15 Q 1150 35 1100 12 T 1000 25 T 900 10 T 800 40 T 700 15 T 600 30 T 500 12 T 400 35 T 300 15 T 200 25 T 100 10 T 0 20 Z" 
+    dur="6s" repeatCount="indefinite"/>
+</path>
+
+<!-- FALLING SLIME DROPLETS -->
+<circle cx="250" cy="20" r="3" fill="#39ff14" opacity="0.8">
+  <animate attributeName="cy" values="20;630" dur="3.5s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.8;0" dur="3.5s" repeatCount="indefinite"/>
+</circle>
+<circle cx="750" cy="30" r="4" fill="#39ff14" opacity="0.8">
+  <animate attributeName="cy" values="30;630" dur="2.7s" begin="1s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.8;0" dur="2.7s" begin="1s" repeatCount="indefinite"/>
+</circle>
 
 <!-- MAIN TRUNK BACKGROUND GLOW -->
 <path d="M600 580 C580 470 620 380 600 280 C590 220 600 150 600 105"
-      stroke="#36BCF7" stroke-width="45" opacity="0.08" fill="none" filter="url(#strongGlow)"/>
+      stroke="#39ff14" stroke-width="45" opacity="0.08" fill="none" filter="url(#strongGlow)"/>
 
-<!-- MAIN TRUNK (ORGANIC BRAIDED STRANDS) -->
-<g fill="none" stroke-linecap="round" filter="url(#softGlow)">
+<!-- MAIN TRUNK (GAUNT, THORNY, SLIME-COVERED) -->
+<g fill="none" stroke-linecap="round" filter="url(#slimeGlow)">
   <!-- Outer Trunk Silhouette / Base -->
   <path d="M600 580 C570 470 625 370 595 270 C585 210 600 150 600 105" stroke="url(#trunkGradient)" stroke-width="18"/>
   <path d="M600 580 C630 470 575 370 605 270 C615 210 600 150 600 105" stroke="url(#trunkGradient)" stroke-width="14" opacity="0.8"/>
   
-  <!-- Intertwined Core Fibers -->
-  <path d="M575 580 C550 490 630 390 585 290 C575 230 595 160 600 105" stroke="#00FF9C" stroke-width="4" opacity="0.9"/>
-  <path d="M625 580 C650 490 570 390 615 290 C625 230 605 160 600 105" stroke="#36BCF7" stroke-width="4" opacity="0.9"/>
-  <path d="M590 580 C610 480 585 380 600 280 C605 220 598 150 600 105" stroke="#ffffff" stroke-width="2" opacity="0.9"/>
-  <path d="M610 580 C590 480 615 380 600 280 C595 220 602 150 600 105" stroke="#b56cff" stroke-width="3" opacity="0.7"/>
+  <!-- Thorny, Sinuous Core Fibers -->
+  <path d="M575 580 C550 490 630 390 585 290 C575 230 595 160 600 105" stroke="#39ff14" stroke-width="4" stroke-dasharray="3 6" opacity="0.9"/>
+  <path d="M625 580 C650 490 570 390 615 290 C625 230 605 160 600 105" stroke="#183812" stroke-width="4" stroke-dasharray="6 3" opacity="0.9"/>
+  <path d="M590 580 C610 480 585 380 600 280 C605 220 598 150 600 105" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+  <path d="M610 580 C590 480 615 380 600 280 C595 220 602 150 600 105" stroke="#ff0055" stroke-width="3" opacity="0.7"/>
 </g>
 
-<!-- PRIMARY BRANCHES -->
-<g fill="none" stroke-linecap="round" filter="url(#softGlow)">
+<!-- PRIMARY BRANCHES (TWISTED THORNS & BONES) -->
+<g fill="none" stroke-linecap="round" filter="url(#slimeGlow)">
   <!-- Tech Branch (Left-Mid) -->
-  <path d="M590 350 C520 340 430 280 330 220" stroke="url(#techBranch)" stroke-width="7"/>
-  <path d="M585 345 C515 335 435 275 330 220" stroke="#ffffff" stroke-width="1.5" opacity="0.8"/>
+  <path d="M590 350 C520 340 430 280 330 220" stroke="url(#techBranch)" stroke-width="7" stroke-dasharray="8 4"/>
+  <path d="M585 345 C515 335 435 275 330 220" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
 
   <!-- Science Branch (Right-Mid) -->
-  <path d="M610 370 C690 350 780 285 870 220" stroke="url(#scienceBranch)" stroke-width="7"/>
-  <path d="M615 365 C695 345 775 280 870 220" stroke="#ffffff" stroke-width="1.5" opacity="0.8"/>
+  <path d="M610 370 C690 350 780 285 870 220" stroke="url(#scienceBranch)" stroke-width="7" stroke-dasharray="8 4"/>
+  <path d="M615 365 C695 345 775 280 870 220" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
 
   <!-- Art Branch (Left-Top) -->
-  <path d="M595 240 C520 190 450 155 380 120" stroke="url(#artBranch)" stroke-width="6"/>
-  <path d="M592 235 C522 188 448 152 380 120" stroke="#ffffff" stroke-width="1.5" opacity="0.8"/>
+  <path d="M595 240 C520 190 450 155 380 120" stroke="url(#artBranch)" stroke-width="6" stroke-dasharray="6 3"/>
+  <path d="M592 235 C522 188 448 152 380 120" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
 
   <!-- Web Branch (Right-Top) -->
-  <path d="M605 220 C690 175 770 145 840 120" stroke="url(#webBranch)" stroke-width="6"/>
-  <path d="M608 215 C692 172 768 142 840 120" stroke="#ffffff" stroke-width="1.5" opacity="0.8"/>
+  <path d="M605 220 C690 175 770 145 840 120" stroke="url(#webBranch)" stroke-width="6" stroke-dasharray="6 3"/>
+  <path d="M608 215 C692 172 768 142 840 120" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
 
   <!-- Sub-Branches to Lower Skills -->
-  <path d="M430 280 C360 300 300 320 250 330" stroke="#36BCF7" stroke-width="3" opacity="0.7"/>
-  <path d="M470 305 C450 325 435 340 425 350" stroke="#36BCF7" stroke-width="2.5" opacity="0.7"/>
-  <path d="M770 290 C810 315 860 330 910 335" stroke="#00FF9C" stroke-width="3" opacity="0.7"/>
-  <path d="M730 310 C745 330 755 345 765 355" stroke="#00FF9C" stroke-width="2.5" opacity="0.7"/>
+  <path d="M430 280 C360 300 300 320 250 330" stroke="#183812" stroke-width="3" stroke-dasharray="5 5"/>
+  <path d="M470 305 C450 325 435 340 425 350" stroke="#183812" stroke-width="2.5" stroke-dasharray="5 5"/>
+  <path d="M770 290 C810 315 860 330 910 335" stroke="#a3ff00" stroke-width="3" stroke-dasharray="5 5"/>
+  <path d="M730 310 C745 330 755 345 765 355" stroke="#a3ff00" stroke-width="2.5" stroke-dasharray="5 5"/>
 </g>
 
-<!-- SUB-SKILL CONNECTORS & LABELS -->
-<g font-family="monospace" font-size="12" fill="#e0f7ff" text-anchor="middle">
-  <!-- AI / ML -->
-  <circle cx="250" cy="330" r="4" fill="#36BCF7" filter="url(#softGlow)"/>
+<!-- SUB-SKILL NODES & LABELS -->
+<g font-family="monospace" font-size="12" fill="#e2f7e2" text-anchor="middle">
+  <!-- AI / ML (Corrupted Eye) -->
+  <g filter="url(#slimeGlow)">
+    <circle cx="250" cy="330" r="6" fill="#183812" stroke="#39ff14" stroke-width="1"/>
+    <ellipse cx="250" cy="330" rx="1" ry="4" fill="#39ff14"/>
+  </g>
   <text x="250" y="350" font-weight="bold">AI / ML</text>
 
-  <!-- TOOLS -->
-  <circle cx="425" cy="350" r="4" fill="#36BCF7" filter="url(#softGlow)"/>
+  <!-- TOOLS (Rusting Chains) -->
+  <g filter="url(#slimeGlow)">
+    <circle cx="425" cy="350" r="5" fill="#183812" stroke="#39ff14" stroke-width="1"/>
+    <path d="M422 347 Q 425 350 428 347 Q 431 350 428 353 Q 425 350 422 353 Z" fill="none" stroke="#39ff14"/>
+  </g>
   <text x="425" y="370" font-weight="bold">TOOLS</text>
 
-  <!-- RESEARCH -->
-  <circle cx="765" cy="355" r="4" fill="#00FF9C" filter="url(#softGlow)"/>
+  <!-- RESEARCH (Mutating Vial) -->
+  <g filter="url(#slimeGlow)">
+    <circle cx="765" cy="355" r="5" fill="#183812" stroke="#a3ff00" stroke-width="1"/>
+    <path d="M762 352 L 768 352 L 767 357 Q 765 360 763 357 Z" fill="none" stroke="#a3ff00"/>
+  </g>
   <text x="765" y="375" font-weight="bold">RESEARCH</text>
 
-  <!-- DATA -->
-  <circle cx="910" cy="335" r="4" fill="#00FF9C" filter="url(#softGlow)"/>
+  <!-- DATA (Cryptic Symbols) -->
+  <g filter="url(#slimeGlow)">
+    <circle cx="910" cy="335" r="5" fill="#183812" stroke="#a3ff00" stroke-width="1"/>
+    <path d="M908 332 L 912 332 L 910 338 L 912 338 L 908 338" fill="none" stroke="#a3ff00"/>
+  </g>
   <text x="910" y="355" font-weight="bold">DATA</text>
 </g>
 
 <!-- MAIN NODES -->
 
-<!-- 1. ROOT NODE (METADORE) -->
+<!-- 1. ROOT NODE (METADORE - MONSTER EYE) -->
 <g transform="translate(600, 105)">
-  <circle r="52" fill="url(#nodeBg)" stroke="#36BCF7" stroke-width="2" opacity="0.5"/>
-  <circle r="45" fill="#050e17" stroke="#36BCF7" stroke-width="4" filter="url(#softGlow)">
-    <animate attributeName="r" values="45;48;45" dur="3s" repeatCount="indefinite"/>
+  <circle r="55" fill="url(#slimeNodeBg)" stroke="#39ff14" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Glowing/Pulsing Outer Ring -->
+  <circle r="55" fill="none" stroke="#39ff14" stroke-width="3" filter="url(#slimeGlow)">
+    <animate attributeName="r" values="53;58;53" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke" values="#39ff14;#ff0055;#39ff14" dur="4s" repeatCount="indefinite"/>
   </circle>
-  <circle r="38" fill="none" stroke="#00FF9C" stroke-width="1.5" stroke-dasharray="6 4"/>
-  <text y="-3" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="16" font-weight="bold" letter-spacing="1">METADORE</text>
-  <text y="16" text-anchor="middle" fill="#36BCF7" font-family="monospace" font-size="9" letter-spacing="2">ROOT NODE</text>
+
+  <!-- Monster Eyeball -->
+  <circle r="30" fill="#e2f7e2"/>
+  <!-- Iris -->
+  <circle r="16" fill="#ff0055">
+    <animate attributeName="r" values="16;12;16" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Slit Pupil that looks around -->
+  <ellipse rx="3" ry="10" fill="#000000">
+    <animateTransform attributeName="transform" type="translate" values="0,0; -5,2; 5,-2; 0,0" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+  <!-- Eye Highlight -->
+  <circle cx="-8" cy="-8" r="4" fill="#ffffff" opacity="0.8"/>
+  
+  <text y="-3" text-anchor="middle" fill="#39ff14" font-family="monospace" font-size="16" font-weight="bold" letter-spacing="1" filter="url(#slimeGlow)">METADORE</text>
+  <text y="16" text-anchor="middle" fill="#ff0055" font-family="monospace" font-size="9" letter-spacing="2">ROOT NODE</text>
+
+  <!-- Creepy Crawling Spiders around node -->
+  <g transform="translate(48, -20) scale(0.3)">
+    <use href="#spiderLegs"/>
+    <circle r="10" fill="#1d2d1f"/>
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(-48, 20) scale(0.3) rotate(180)">
+    <use href="#spiderLegs"/>
+    <circle r="10" fill="#1d2d1f"/>
+    <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="12s" repeatCount="indefinite"/>
+  </g>
 </g>
 
-<!-- 2. TECH NODE -->
+<!-- 2. TECH NODE (CORRUPTED) -->
 <g transform="translate(330, 220)">
-  <circle r="45" fill="url(#nodeBg)" stroke="#36BCF7" stroke-width="1.5" opacity="0.6"/>
-  <circle r="38" fill="#050e17" stroke="#36BCF7" stroke-width="3" filter="url(#softGlow)">
+  <circle r="45" fill="url(#slimeNodeBg)" stroke="#39ff14" stroke-width="1.5" opacity="0.6"/>
+  <circle r="38" fill="#020803" stroke="#39ff14" stroke-width="3" filter="url(#slimeGlow)">
     <animate attributeName="stroke-width" values="3;5;3" dur="2s" repeatCount="indefinite"/>
   </circle>
-  <text y="-2" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold">TECH</text>
-  <text y="15" text-anchor="middle" fill="#36BCF7" font-family="monospace" font-size="9" letter-spacing="1">ACTIVE</text>
+  
+  <!-- Internal decay animation -->
+  <path d="M-20 -10 Q 0 0 20 -10 M-20 0 Q 0 10 20 0 M-20 10 Q 0 20 20 10" stroke="#39ff14" stroke-width="1.5" opacity="0.3" fill="none">
+    <animate attributeName="d" values="M-20 -10 Q 0 0 20 -10 M-20 0 Q 0 10 20 0 M-20 10 Q 0 20 20 10;
+                                        M-20 -5 Q 0 5 20 -5 M-20 5 Q 0 15 20 5 M-20 15 Q 0 25 20 15;
+                                        M-20 -10 Q 0 0 20 -10 M-20 0 Q 0 10 20 0 M-20 10 Q 0 20 20 10" dur="3s" repeatCount="indefinite"/>
+  </path>
+
+  <text y="-2" text-anchor="middle" fill="#e2f7e2" font-family="monospace" font-size="14" font-weight="bold">TECH</text>
+  <text y="15" text-anchor="middle" fill="#ff0055" font-family="monospace" font-size="9" letter-spacing="1">INFECTED</text>
 </g>
 
-<!-- 3. SCIENCE NODE -->
+<!-- 3. SCIENCE NODE (MUTATING - EGG COCOON) -->
 <g transform="translate(870, 220)">
-  <circle r="45" fill="url(#nodeBg)" stroke="#00FF9C" stroke-width="1.5" opacity="0.6"/>
-  <circle r="38" fill="#050e17" stroke="#00FF9C" stroke-width="3" filter="url(#softGlow)">
-    <animate attributeName="stroke-width" values="3;5;3" dur="2.5s" repeatCount="indefinite"/>
+  <circle r="45" fill="url(#slimeNodeBg)" stroke="#a3ff00" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Pulsing Toxic Eggs inside Sac -->
+  <g filter="url(#slimeGlow)">
+    <ellipse cx="-10" cy="-8" rx="12" ry="16" fill="url(#eggGlow)" transform="rotate(-15 -10 -8)"/>
+    <ellipse cx="12" cy="-5" rx="10" ry="14" fill="url(#eggGlow)" transform="rotate(20 12 -5)"/>
+    <ellipse cx="0" cy="10" rx="14" ry="18" fill="url(#eggGlow)"/>
+  </g>
+
+  <!-- Web Wrapping overlay -->
+  <path d="M -25 -15 Q 0 -5 25 -20 M -30 5 Q 0 15 30 0 M -20 25 Q 0 30 20 20" stroke="#ffffff" stroke-width="2" opacity="0.6" fill="none"/>
+
+  <!-- Pulsing Glow -->
+  <circle r="38" fill="none" stroke="#a3ff00" stroke-width="3" filter="url(#slimeGlow)">
+    <animate attributeName="stroke-width" values="1;4;1" dur="2s" repeatCount="indefinite"/>
   </circle>
-  <text y="-2" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold">SCIENCE</text>
-  <text y="15" text-anchor="middle" fill="#00FF9C" font-family="monospace" font-size="9" letter-spacing="1">EXPLORING</text>
+
+  <text y="-2" text-anchor="middle" fill="#e2f7e2" font-family="monospace" font-size="14" font-weight="bold">SCIENCE</text>
+  <text y="15" text-anchor="middle" fill="#39ff14" font-family="monospace" font-size="9" letter-spacing="1">MUTATING</text>
 </g>
 
-<!-- 4. ART NODE -->
+<!-- 4. ART NODE (CREATIVE ENGINEERS - SCOPE SKULL) -->
 <g transform="translate(380, 120)">
-  <circle r="38" fill="url(#nodeBg)" stroke="#ff66cc" stroke-width="1.5" opacity="0.6"/>
-  <circle r="32" fill="#050e17" stroke="#ff66cc" stroke-width="3" filter="url(#softGlow)"/>
-  <text y="-2" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="13" font-weight="bold">ART</text>
-  <text y="14" text-anchor="middle" fill="#ff66cc" font-family="monospace" font-size="8" letter-spacing="1">CREATIVE</text>
+  <circle r="38" fill="url(#slimeNodeBg)" stroke="#ff0055" stroke-width="1.5" opacity="0.6"/>
+  <circle r="32" fill="#020803" stroke="#ff0055" stroke-width="3" filter="url(#slimeGlow)"/>
+  
+  <!-- Internal Crosshair Skill Reticle -->
+  <g stroke="#ff0055" stroke-width="1.5" fill="none" filter="url(#slimeGlow)" transform="scale(0.5)">
+    <circle r="52" stroke-dasharray="20 4 5 4"/>
+    
+    <!-- Crosshair Lines with Barb wire dashes -->
+    <line x1="-58" y1="0" x2="-20" y2="0"/>
+    <line x1="20" y1="0" x2="58" y2="0"/>
+    <line x1="0" y1="-58" x2="0" y2="-20"/>
+    <line x1="0" y1="20" x2="0" y2="58"/>
+
+    <!-- Center Mini Skull -->
+    <g transform="translate(0, -3) scale(0.8)">
+      <path d="M -10 -6 A 10 10 0 0 1 10 -6 L 10 2 C 10 6 6 8 6 12 L -6 12 C -6 8 -10 6 -10 2 Z" fill="#ff0055"/>
+      <circle cx="-4" cy="-2" r="3" fill="#020803"/>
+      <circle cx="4" cy="-2" r="3" fill="#020803"/>
+      <path d="M -3 12 L -3 8 M 0 12 L 0 8 M 3 12 L 3 8" stroke="#020803" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <text y="-2" text-anchor="middle" fill="#e2f7e2" font-family="monospace" font-size="13" font-weight="bold">ART</text>
+  <text y="14" text-anchor="middle" fill="#ff0055" font-family="monospace" font-size="8" letter-spacing="1">DEAD DESIGN</text>
 </g>
 
-<!-- 5. WEB NODE -->
+<!-- 5. WEB NODE (SPIDER RADAR) -->
 <g transform="translate(840, 120)">
-  <circle r="38" fill="url(#nodeBg)" stroke="#b56cff" stroke-width="1.5" opacity="0.6"/>
-  <circle r="32" fill="#050e17" stroke="#b56cff" stroke-width="3" filter="url(#softGlow)"/>
-  <text y="-2" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="13" font-weight="bold">WEB</text>
-  <text y="14" text-anchor="middle" fill="#b56cff" font-family="monospace" font-size="8" letter-spacing="1">BUILDING</text>
+  <circle r="38" fill="url(#slimeNodeBg)" stroke="#b56cff" stroke-width="1.5" opacity="0.6"/>
+  <circle r="32" fill="#020803" stroke="#b56cff" stroke-width="3" filter="url(#slimeGlow)"/>
+  
+  <!-- Internal Spider centerpiece with small pulse -->
+  <g transform="scale(0.5)" filter="url(#slimeGlow)">
+    <!-- Legs -->
+    <use href="#spiderLegs" transform="scale(1.1)"/>
+    <!-- Body -->
+    <ellipse cx="0" cy="12" rx="14" ry="18" fill="#190024" stroke="#b56cff" stroke-width="2"/>
+    <!-- Head -->
+    <circle cx="0" cy="-6" r="10" fill="#0d0012" stroke="#b56cff" stroke-width="1.5"/>
+    <!-- Glowing Red Spider Eyes -->
+    <circle cx="-4" cy="-8" r="2" fill="#ff0055"/>
+    <circle cx="4" cy="-8" r="2" fill="#ff0055"/>
+  </g>
+  
+  <!-- Radar Pulse Sweep -->
+  <path d="M 0 0 L 25 -15 A 30 30 0 0 0 -25 -15 Z" fill="#b56cff" opacity="0.2">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <text y="-2" text-anchor="middle" fill="#e2f7e2" font-family="monospace" font-size="13" font-weight="bold">WEB</text>
+  <text y="14" text-anchor="middle" fill="#b56cff" font-family="monospace" font-size="8" letter-spacing="1">HIVE MIND</text>
 </g>
 
-<!-- HUD / STATUS FOOTER -->
-<g font-family="monospace" font-size="10" fill="#36BCF7" opacity="0.8">
-  <text x="100" y="595">CORE_VER: 2.0.4</text>
-  <text x="100" y="612">STATUS: OPTIMAL</text>
-  <text x="1100" y="595" text-anchor="end">BRANCHES: 04</text>
-  <text x="1100" y="612" text-anchor="end">NODES_SYNCED: 100%</text>
+<!-- HAUNTED HUD / STATUS FOOTER -->
+<g font-family="monospace" font-size="10" fill="#39ff14" opacity="0.8">
+  <text x="100" y="595">CORE_VER: 2.0.4 [CORRUPTED]</text>
+  <text x="100" y="612" fill="#ff0055">STATUS: CRITICAL_FAILURE</text>
+  <text x="1100" y="595" text-anchor="end">BRANCHES: 04 [DECAYING]</text>
+  <text x="1100" y="612" text-anchor="end">NODES_SYNCED: 100% [INFECTED]</text>
 </g>
 
 </svg>
