@@ -1,0 +1,200 @@
+<svg width="1200" height="480"
+viewBox="0 0 1200 480"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="4" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+</defs>
+
+<!-- TERMINAL WINDOW -->
+
+<rect x="20"
+y="20"
+width="1160"
+height="440"
+rx="18"
+fill="#050b12"
+stroke="#203a43"
+stroke-width="2"/>
+
+<!-- HEADER -->
+
+<rect x="20"
+y="20"
+width="1160"
+height="55"
+rx="18"
+fill="#0b1721"/>
+
+<!-- TERMINAL BUTTONS -->
+
+<circle cx="55"
+cy="47"
+r="7"
+fill="#ff5f56"/>
+
+<circle cx="80"
+cy="47"
+r="7"
+fill="#ffbd2e"/>
+
+<circle cx="105"
+cy="47"
+r="7"
+fill="#27c93f"/>
+
+<text x="145"
+y="53"
+fill="#7dd3fc"
+font-family="monospace"
+font-size="16">
+
+METADORE_AI_CORE.exe
+
+</text>
+
+<!-- TERMINAL -->
+
+<g font-family="monospace"
+font-size="17">
+
+<text x="60"
+y="120"
+fill="#00FF9C">
+
+&gt; boot metadore_ai
+
+</text>
+
+<text x="60"
+y="150"
+fill="#36BCF7">
+
+[✓] SYSTEM INITIALIZED
+
+</text>
+
+<text x="60"
+y="180"
+fill="#36BCF7">
+
+[✓] MEMORY MODULE LOADED
+
+</text>
+
+<text x="60"
+y="210"
+fill="#36BCF7">
+
+[✓] CURIOSITY ENGINE ONLINE
+
+</text>
+
+<text x="60"
+y="240"
+fill="#36BCF7">
+
+[✓] EXPERIMENTATION MODULE ONLINE
+
+</text>
+
+<text x="60"
+y="270"
+fill="#36BCF7">
+
+[✓] CREATIVE ENGINE ONLINE
+
+</text>
+
+<text x="60"
+y="300"
+fill="#36BCF7">
+
+[✓] SCIENTIFIC MODE ENABLED
+
+</text>
+
+<text x="60"
+y="340"
+fill="#00FF9C">
+
+&gt; analyze curiosity
+
+</text>
+
+<text x="60"
+y="370"
+fill="white">
+
+RESULT:
+
+</text>
+
+<text x="135"
+y="370"
+fill="#00FF9C">
+
+UNLIMITED
+
+</text>
+
+<text x="60"
+y="405"
+fill="#00FF9C">
+
+&gt; status
+
+</text>
+
+<text x="145"
+y="405"
+fill="white">
+
+EXPERIMENT IN PROGRESS...
+
+</text>
+
+</g>
+
+<!-- CURSOR -->
+
+<rect x="430"
+y="390"
+width="10"
+height="20"
+fill="#00FF9C">
+
+<animate
+attributeName="opacity"
+values="1;0;1"
+dur="0.8s"
+repeatCount="indefinite"/>
+
+</rect>
+
+<!-- SCAN LINE -->
+
+<rect x="30"
+y="80"
+width="1140"
+height="2"
+fill="#36BCF7"
+opacity="0.18">
+
+<animate
+attributeName="y"
+values="80;440;80"
+dur="4s"
+repeatCount="indefinite"/>
+
+</rect>
+
+</svg>
