@@ -1,26 +1,28 @@
 <svg width="1200" height="500" viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg">
-
 <defs>
-
-  <!-- BACKGROUND GRADIENTS -->
+  <!-- SPOOKY GRADIENTS -->
   <linearGradient id="bgGradient" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="#03080e"/>
-    <stop offset="50%" stop-color="#081420"/>
-    <stop offset="100%" stop-color="#03070d"/>
+    <stop offset="0%" stop-color="#020804"/>
+    <stop offset="50%" stop-color="#0b170e"/>
+    <stop offset="100%" stop-color="#010502"/>
   </linearGradient>
 
-  <!-- GLOW FILTERS -->
-  <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
-    <feGaussianBlur stdDeviation="5" result="blur"/>
-    <feMerge>
-      <feMergeNode in="blur"/>
-      <feMergeNode in="SourceGraphic"/>
-    </feMerge>
-  </filter>
+  <radialGradient id="slimeNodeBg" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#183812"/>
+    <stop offset="70%" stop-color="#081806"/>
+    <stop offset="100%" stop-color="#020803"/>
+  </radialGradient>
 
-  <filter id="strongGlow" x="-50%" y="-50%" width="200%" height="200%">
-    <feGaussianBlur stdDeviation="10" result="blur1"/>
-    <feGaussianBlur stdDeviation="4" result="blur2"/>
+  <radialGradient id="eggGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#a3ff00"/>
+    <stop offset="50%" stop-color="#39ff14"/>
+    <stop offset="100%" stop-color="#052400"/>
+  </radialGradient>
+
+  <!-- GLOW & OOZE FILTERS -->
+  <filter id="slimeGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="6" result="blur1"/>
+    <feGaussianBlur stdDeviation="2" result="blur2"/>
     <feMerge>
       <feMergeNode in="blur1"/>
       <feMergeNode in="blur2"/>
@@ -28,19 +30,32 @@
     </feMerge>
   </filter>
 
-  <!-- RADIAL NODE GRADIENT -->
-  <radialGradient id="nodeBg" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#0d2335"/>
-    <stop offset="100%" stop-color="#040a10"/>
-  </radialGradient>
+  <filter id="goo">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur" />
+    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+    <feBlend in="SourceGraphic" in2="goo" />
+  </filter>
 
+  <!-- SPIDER LEGS DEF -->
+  <g id="spiderLegs" stroke="#1d2d1f" stroke-width="3" fill="none" stroke-linecap="round">
+    <!-- Left Legs -->
+    <path d="M -10 -5 C -25 -20, -35 -20, -45 -10"/>
+    <path d="M -12 0 C -30 -10, -42 -5, -50 8"/>
+    <path d="M -12 5 C -30 10, -42 18, -48 30"/>
+    <path d="M -10 10 C -25 25, -35 35, -40 45"/>
+    <!-- Right Legs -->
+    <path d="M 10 -5 C 25 -20, 35 -20, 45 -10"/>
+    <path d="M 12 0 C 30 -10, 42 -5, 50 8"/>
+    <path d="M 12 5 C 30 10, 42 18, 48 30"/>
+    <path d="M 10 10 C 25 25, 35 35, 40 45"/>
+  </g>
 </defs>
 
 <!-- BACKGROUND CARD -->
-<rect width="1200" height="500" rx="20" fill="url(#bgGradient)" stroke="#1a3545" stroke-width="2"/>
+<rect width="1200" height="500" rx="20" fill="url(#bgGradient)" stroke="#1a381e" stroke-width="3"/>
 
-<!-- HUD GRID & CROSSHAIRS BACKGROUND -->
-<g opacity="0.08" stroke="#36BCF7" stroke-width="1">
+<!-- HAUNTED BACKGROUND GRID (WEBBED/CRACKED LOOK) -->
+<g opacity="0.12" stroke="#39ff14" stroke-width="1" stroke-dasharray="8 4">
   <line x1="0" y1="100" x2="1200" y2="100"/>
   <line x1="0" y1="200" x2="1200" y2="200"/>
   <line x1="0" y1="300" x2="1200" y2="300"/>
@@ -52,156 +67,211 @@
   <line x1="900" y1="0" x2="900" y2="500"/>
 </g>
 
-<!-- CORNER HUD MARKS -->
-<path d="M 30 50 L 30 30 L 50 30" stroke="#36BCF7" stroke-width="2" fill="none" opacity="0.6"/>
-<path d="M 1170 50 L 1170 30 L 1150 30" stroke="#36BCF7" stroke-width="2" fill="none" opacity="0.6"/>
-<path d="M 30 450 L 30 470 L 50 470" stroke="#36BCF7" stroke-width="2" fill="none" opacity="0.6"/>
-<path d="M 1170 450 L 1170 470 L 1150 470" stroke="#36BCF7" stroke-width="2" fill="none" opacity="0.6"/>
+<!-- CORNER BONE/COBWEB MARKS -->
+<path d="M 20 60 L 20 20 L 60 20 M 20 20 L 50 50 M 20 35 Q 35 35 35 20 M 20 48 Q 48 48 48 20" stroke="#39ff14" stroke-width="2" fill="none" opacity="0.4"/>
+<path d="M 1180 60 L 1180 20 L 1140 20 M 1180 20 L 1150 50 M 1180 35 Q 1165 35 1165 20 M 1180 48 Q 1152 48 1152 20" stroke="#39ff14" stroke-width="2" fill="none" opacity="0.4"/>
+<path d="M 20 440 L 20 480 L 60 480 M 20 480 L 50 450" stroke="#39ff14" stroke-width="2" fill="none" opacity="0.4"/>
+<path d="M 1180 440 L 1180 480 L 1140 480 M 1180 480 L 1150 450" stroke="#39ff14" stroke-width="2" fill="none" opacity="0.4"/>
 
-<!-- TITLE HUD -->
+<!-- SPOOKY TITLE -->
 <g font-family="monospace" text-anchor="middle">
-  <text x="600" y="48" fill="#ffffff" font-size="26" font-weight="bold" letter-spacing="4" filter="url(#softGlow)">METADORE // TARGET ACQUIRED</text>
-  <text x="600" y="68" fill="#36BCF7" font-size="10" letter-spacing="2" opacity="0.8"></text>
+  <text x="600" y="48" fill="#39ff14" font-size="24" font-weight="bold" letter-spacing="4" filter="url(#slimeGlow)">METADORE // INFESTATION ACQUIRED</text>
+  <text x="600" y="68" fill="#ff0055" font-size="10" letter-spacing="3" opacity="0.9">WARNING: HIGH TOXICITY DETECTED</text>
 </g>
 
-<!-- AMBIENT SCANNING LINE -->
-<rect x="50" y="80" width="1100" height="1.5" fill="#36BCF7" opacity="0.25">
-  <animate attributeName="y" values="80;440;80" dur="5s" repeatCount="indefinite"/>
-</rect>
+<!-- DRIPPING SLIME CURTAIN (TOP) -->
+<path d="M 0 0 L 1200 0 L 1200 15 Q 1150 35 1100 12 T 1000 25 T 900 10 T 800 40 T 700 15 T 600 30 T 500 12 T 400 35 T 300 15 T 200 25 T 100 10 T 0 20 Z" fill="#39ff14" opacity="0.3" filter="url(#goo)">
+  <animate attributeName="d" 
+    values="M 0 0 L 1200 0 L 1200 15 Q 1150 35 1100 12 T 1000 25 T 900 10 T 800 40 T 700 15 T 600 30 T 500 12 T 400 35 T 300 15 T 200 25 T 100 10 T 0 20 Z;
+            M 0 0 L 1200 0 L 1200 25 Q 1150 15 1100 30 T 1000 10 T 900 35 T 800 15 T 700 40 T 600 12 T 500 30 T 400 15 T 300 35 T 200 10 T 100 25 T 0 12 Z;
+            M 0 0 L 1200 0 L 1200 15 Q 1150 35 1100 12 T 1000 25 T 900 10 T 800 40 T 700 15 T 600 30 T 500 12 T 400 35 T 300 15 T 200 25 T 100 10 T 0 20 Z" 
+    dur="6s" repeatCount="indefinite"/>
+</path>
 
-<!-- ================= ACHIEVEMENT 1: FIRST BUILD (CROSSHAIR TARGET) ================= -->
+<!-- FALLING SLIME DROPLETS -->
+<circle cx="250" cy="20" r="3" fill="#39ff14" opacity="0.8">
+  <animate attributeName="cy" values="20;480" dur="3.5s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.8;0" dur="3.5s" repeatCount="indefinite"/>
+</circle>
+<circle cx="750" cy="30" r="4" fill="#39ff14" opacity="0.8">
+  <animate attributeName="cy" values="30;480" dur="2.7s" begin="1s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.8;0" dur="2.7s" begin="1s" repeatCount="indefinite"/>
+</circle>
+
+<!-- ================= ACHIEVEMENT 1: MONSTER EYE (FIRST BUILD) ================= -->
 <g transform="translate(180, 200)">
-  <!-- Outer Target Ring -->
-  <circle r="65" fill="url(#nodeBg)" stroke="#36BCF7" stroke-width="2" opacity="0.4"/>
-  <circle r="55" fill="none" stroke="#36BCF7" stroke-width="3" filter="url(#softGlow)">
-    <animate attributeName="r" values="55;60;55" dur="2s" repeatCount="indefinite"/>
+  <!-- Outer Spiderweb Backing -->
+  <path d="M 0 -65 L 0 65 M -65 0 L 65 0 M -45 -45 L 45 45 M -45 45 L 45 -45" stroke="#39ff14" stroke-width="1" opacity="0.3"/>
+  <path d="M 0 -45 Q 30 -30 45 0 Q 30 30 0 45 Q -30 30 -45 0 Q -30 -30 0 -45" fill="none" stroke="#39ff14" stroke-width="1" opacity="0.3"/>
+
+  <circle r="55" fill="url(#slimeNodeBg)" stroke="#39ff14" stroke-width="2"/>
+  
+  <!-- Glowing/Pulsing Outer Ring -->
+  <circle r="55" fill="none" stroke="#39ff14" stroke-width="3" filter="url(#slimeGlow)">
+    <animate attributeName="r" values="53;58;53" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke" values="#39ff14;#ff0055;#39ff14" dur="4s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Rotating Reticle Arc -->
-  <circle r="42" fill="none" stroke="#36BCF7" stroke-width="1.5" stroke-dasharray="25 15">
-    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+  <!-- Monster Eyeball -->
+  <circle r="30" fill="#e2f7e2"/>
+  <!-- Iris -->
+  <circle r="16" fill="#ff0055">
+    <animate attributeName="r" values="16;12;16" dur="3s" repeatCount="indefinite"/>
   </circle>
+  <!-- Slit Pupil that looks around -->
+  <ellipse rx="3" ry="10" fill="#000000">
+    <animateTransform attributeName="transform" type="translate" values="0,0; -5,2; 5,-2; 0,0" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+  <!-- Eye Highlight -->
+  <circle cx="-8" cy="-8" r="4" fill="#ffffff" opacity="0.8"/>
 
-  <!-- Vector Target Sight Icon (No Emoji) -->
-  <g stroke="#36BCF7" stroke-width="2.5" fill="none" filter="url(#softGlow)">
-    <circle r="16" opacity="0.8"/>
-    <circle r="5" fill="#36BCF7"/>
-    <line x1="-24" y1="0" x2="-10" y2="0"/>
-    <line x1="10" y1="0" x2="24" y2="0"/>
-    <line x1="0" y1="-24" x2="0" y2="-10"/>
-    <line x1="0" y1="10" x2="0" y2="24"/>
-  </g>
-
-  <!-- Text Labels -->
-  <text x="0" y="100" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold" letter-spacing="1">FIRST BUILD</text>
-  <text x="0" y="122" text-anchor="middle" fill="#7d8c99" font-family="monospace" font-size="10">Turning ideas into projects</text>
-</g>
-
-<!-- ================= ACHIEVEMENT 2: SCIENCE EXPLORER (CROSSHAIR TARGET) ================= -->
-<g transform="translate(420, 200)">
-  <!-- Outer Target Ring -->
-  <circle r="65" fill="url(#nodeBg)" stroke="#00FF9C" stroke-width="2" opacity="0.4"/>
-  <circle r="55" fill="none" stroke="#00FF9C" stroke-width="3" filter="url(#softGlow)">
-    <animate attributeName="stroke-width" values="3;5;3" dur="2.4s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Rotating Reticle Arc -->
-  <circle r="42" fill="none" stroke="#00FF9C" stroke-width="1.5" stroke-dasharray="40 10">
-    <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="10s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Vector Crosshair Icon (No Emoji) -->
-  <g stroke="#00FF9C" stroke-width="2" fill="none" filter="url(#softGlow)">
-    <circle r="20" stroke-dasharray="6 4"/>
-    <circle r="8" fill="#00FF9C"/>
-    <path d="M -22 -22 L -14 -14 M 22 -22 L 14 -14 M -22 22 L -14 14 M 22 22 L 14 14"/>
-  </g>
-
-  <!-- Text Labels -->
-  <text x="0" y="100" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold" letter-spacing="1">SCIENCE EXPLORER</text>
-  <text x="0" y="122" text-anchor="middle" fill="#7d8c99" font-family="monospace" font-size="10">Science + technology</text>
-</g>
-
-<!-- ================= ACHIEVEMENT 3: AI EXPLORER (RADAR LOCK TARGET) ================= -->
-<g transform="translate(660, 200)">
-  <!-- Outer Target Ring -->
-  <circle r="65" fill="url(#nodeBg)" stroke="#b56cff" stroke-width="2" opacity="0.4"/>
-  <circle r="55" fill="none" stroke="#b56cff" stroke-width="3" filter="url(#softGlow)">
-    <animate attributeName="r" values="55;60;55" dur="2.8s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Square HUD Lock Frame -->
-  <rect x="-26" y="-26" width="52" height="52" fill="none" stroke="#b56cff" stroke-width="1.5" stroke-dasharray="12 8">
+  <!-- Creepy Crawling Spiders around node -->
+  <g transform="translate(48, -20) scale(0.3)">
+    <use href="#spiderLegs"/>
+    <circle r="10" fill="#1d2d1f"/>
     <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- Vector Radar/AI Core Icon (No Emoji) -->
-  <g stroke="#b56cff" stroke-width="2" fill="none" filter="url(#softGlow)">
-    <polygon points="0,-16 14,10 -14,10"/>
-    <circle cx="0" cy="0" r="4" fill="#b56cff"/>
   </g>
 
-  <!-- Text Labels -->
-  <text x="0" y="100" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold" letter-spacing="1">AI EXPLORER</text>
-  <text x="0" y="122" text-anchor="middle" fill="#7d8c99" font-family="monospace" font-size="10">Exploring intelligent systems</text>
+  <!-- Labels -->
+  <text x="0" y="100" text-anchor="middle" fill="#39ff14" font-family="monospace" font-size="14" font-weight="bold" letter-spacing="1">FIRST BUILD</text>
+  <text x="0" y="122" text-anchor="middle" fill="#7aab78" font-family="monospace" font-size="10">Awakening the creation</text>
 </g>
 
-<!-- ================= ACHIEVEMENT 4: CREATIVE ENGINEER (SNIPER SCOPE TARGET) ================= -->
-<g transform="translate(900, 200)">
-  <!-- Outer Target Ring -->
-  <circle r="65" fill="url(#nodeBg)" stroke="#ff66cc" stroke-width="2" opacity="0.4"/>
-  <circle r="55" fill="none" stroke="#ff66cc" stroke-width="3" filter="url(#softGlow)">
-    <animate attributeName="stroke-width" values="3;5;3" dur="3s" repeatCount="indefinite"/>
+<!-- ================= ACHIEVEMENT 2: SPIDER EGG COCOON (SCIENCE EXPLORER) ================= -->
+<g transform="translate(420, 200)">
+  <circle r="65" fill="url(#slimeNodeBg)" stroke="#00ffcc" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Outer Web Nest -->
+  <path d="M -50 -20 Q 0 -60 50 -20 Q 60 20 30 50 Q -20 60 -50 20 Z" fill="none" stroke="#00ffcc" stroke-width="1.5" stroke-dasharray="6 3">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="15s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Pulsing Toxic Eggs inside Sac -->
+  <g filter="url(#slimeGlow)">
+    <ellipse cx="-10" cy="-8" rx="12" ry="16" fill="url(#eggGlow)" transform="rotate(-15 -10 -8)"/>
+    <ellipse cx="12" cy="-5" rx="10" ry="14" fill="url(#eggGlow)" transform="rotate(20 12 -5)"/>
+    <ellipse cx="0" cy="10" rx="14" ry="18" fill="url(#eggGlow)"/>
+  </g>
+
+  <!-- Web Wrapping overlay -->
+  <path d="M -25 -15 Q 0 -5 25 -20 M -30 5 Q 0 15 30 0 M -20 25 Q 0 30 20 20" stroke="#ffffff" stroke-width="2" opacity="0.6" fill="none"/>
+
+  <!-- Pulsing Glow -->
+  <circle r="55" fill="none" stroke="#00ffcc" stroke-width="2" filter="url(#slimeGlow)">
+    <animate attributeName="stroke-width" values="1;4;1" dur="2s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Outer Corner Brackets -->
-  <path d="M -30 -18 L -30 -30 L -18 -30" stroke="#ff66cc" stroke-width="2" fill="none"/>
-  <path d="M 30 -18 L 30 -30 L 18 -30" stroke="#ff66cc" stroke-width="2" fill="none"/>
-  <path d="M -30 18 L -30 30 L -18 30" stroke="#ff66cc" stroke-width="2" fill="none"/>
-  <path d="M 30 18 L 30 30 L 18 30" stroke="#ff66cc" stroke-width="2" fill="none"/>
-
-  <!-- Vector Scope Crosshair Icon (No Emoji) -->
-  <g stroke="#ff66cc" stroke-width="2" fill="none" filter="url(#softGlow)">
-    <circle r="14"/>
-    <circle r="3" fill="#ff66cc"/>
-    <line x1="-22" y1="0" x2="22" y2="0"/>
-    <line x1="0" y1="-22" x2="0" y2="22"/>
-  </g>
-
-  <!-- Text Labels -->
-  <text x="0" y="100" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold" letter-spacing="1">CREATIVE ENGINEER</text>
-  <text x="0" y="122" text-anchor="middle" fill="#7d8c99" font-family="monospace" font-size="10">Design + technology</text>
+  <!-- Labels -->
+  <text x="0" y="100" text-anchor="middle" fill="#00ffcc" font-family="monospace" font-size="14" font-weight="bold" letter-spacing="1">SCIENCE EXPLORER</text>
+  <text x="0" y="122" text-anchor="middle" fill="#7aab78" font-family="monospace" font-size="10">Mutating specimen labs</text>
 </g>
 
-<!-- PROGRESS BAR / AMMO HUD -->
+<!-- ================= ACHIEVEMENT 3: GIANT SPIDER RADAR (AI EXPLORER) ================= -->
+<g transform="translate(660, 200)">
+  <circle r="65" fill="url(#slimeNodeBg)" stroke="#b56cff" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Rotating Web Target -->
+  <circle r="50" fill="none" stroke="#b56cff" stroke-width="1" stroke-dasharray="15 10 5 10">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Giant Spider Centerpiece -->
+  <g filter="url(#slimeGlow)">
+    <!-- Legs -->
+    <use href="#spiderLegs" transform="scale(1.1)"/>
+    <!-- Body -->
+    <ellipse cx="0" cy="12" rx="14" ry="18" fill="#2d0b3a" stroke="#b56cff" stroke-width="2"/>
+    <!-- Head -->
+    <circle cx="0" cy="-6" r="10" fill="#190024" stroke="#b56cff" stroke-width="1.5"/>
+    <!-- Glowing Red Spider Eyes -->
+    <circle cx="-4" cy="-8" r="2" fill="#ff0055"/>
+    <circle cx="4" cy="-8" r="2" fill="#ff0055"/>
+    <circle cx="-7" cy="-5" r="1.5" fill="#ff0055"/>
+    <circle cx="7" cy="-5" r="1.5" fill="#ff0055"/>
+  </g>
+
+  <!-- Radar Pulse Sweep -->
+  <path d="M 0 0 L 45 -25 A 50 50 0 0 0 -45 -25 Z" fill="#b56cff" opacity="0.25">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Labels -->
+  <text x="0" y="100" text-anchor="middle" fill="#b56cff" font-family="monospace" font-size="14" font-weight="bold" letter-spacing="1">AI EXPLORER</text>
+  <text x="0" y="122" text-anchor="middle" fill="#7aab78" font-family="monospace" font-size="10">Arachnid hive mind</text>
+</g>
+
+<!-- ================= ACHIEVEMENT 4: HAUNTED SCOPE (CREATIVE ENGINEER) ================= -->
+<g transform="translate(900, 200)">
+  <circle r="65" fill="url(#slimeNodeBg)" stroke="#ff0055" stroke-width="2" opacity="0.4"/>
+
+  <!-- Crosshair Skull Reticle -->
+  <g stroke="#ff0055" stroke-width="2" fill="none" filter="url(#slimeGlow)">
+    <circle r="52" stroke-dasharray="40 8 10 8"/>
+    
+    <!-- Crosshair Lines with Barb wire dashes -->
+    <line x1="-58" y1="0" x2="-20" y2="0"/>
+    <line x1="20" y1="0" x2="58" y2="0"/>
+    <line x1="0" y1="-58" x2="0" y2="-20"/>
+    <line x1="0" y1="20" x2="0" y2="58"/>
+
+    <!-- Center Mini Skull -->
+    <g transform="translate(0, -3) scale(0.8)">
+      <path d="M -10 -6 A 10 10 0 0 1 10 -6 L 10 2 C 10 6 6 8 6 12 L -6 12 C -6 8 -10 6 -10 2 Z" fill="#ff0055"/>
+      <circle cx="-4" cy="-2" r="3" fill="#040a10"/>
+      <circle cx="4" cy="-2" r="3" fill="#040a10"/>
+      <path d="M -3 12 L -3 8 M 0 12 L 0 8 M 3 12 L 3 8" stroke="#040a10" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <!-- Pulsing Target Lock -->
+  <circle r="38" fill="none" stroke="#ff0055" stroke-width="1.5" stroke-dasharray="6 6">
+    <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Labels -->
+  <text x="0" y="100" text-anchor="middle" fill="#ff0055" font-family="monospace" font-size="14" font-weight="bold" letter-spacing="1">CREATIVE ENGINEER</text>
+  <text x="0" y="122" text-anchor="middle" fill="#7aab78" font-family="monospace" font-size="10">Weaving nightmare designs</text>
+</g>
+
+<!-- SLIME PROGRESS BAR HUD -->
 <g font-family="monospace">
-  <text x="600" y="382" text-anchor="middle" fill="#36BCF7" font-size="12" letter-spacing="2" filter="url(#softGlow)">
-    TARGET LOCK PROGRESS // 60% COMPLETED
+  <text x="600" y="380" text-anchor="middle" fill="#39ff14" font-size="12" letter-spacing="2" filter="url(#slimeGlow)">
+    INFECTION LEVEL // 60% CORRUPTED
   </text>
 
-  <!-- Track Frame -->
-  <rect x="300" y="402" width="600" height="12" rx="6" fill="#081520" stroke="#1d3b4e" stroke-width="1.5"/>
+  <!-- Track Frame (Bone/Eroded Style) -->
+  <rect x="300" y="398" width="600" height="16" rx="8" fill="#040d06" stroke="#1f4222" stroke-width="2"/>
 
-  <!-- Progress Fill -->
-  <rect x="304" y="405" width="352" height="6" rx="3" fill="#36BCF7" filter="url(#strongGlow)">
-    <animate attributeName="width" values="300;352;300" dur="4s" repeatCount="indefinite"/>
-  </rect>
+  <!-- Slimy Fill -->
+  <g filter="url(#slimeGlow)">
+    <rect x="304" y="401" width="352" height="10" rx="5" fill="#39ff14">
+      <animate attributeName="width" values="304;352;280;352" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
-  <!-- Segment Markers for Shooting Game Vibe -->
-  <g stroke="#03080e" stroke-width="2" opacity="0.6">
-    <line x1="420" y1="402" x2="420" y2="414"/>
-    <line x1="540" y1="402" x2="540" y2="414"/>
-    <line x1="660" y1="402" x2="660" y2="414"/>
-    <line x1="780" y1="402" x2="780" y2="414"/>
+  <!-- Dripping Slime from Progress Bar -->
+  <path d="M 400 414 Q 405 425 408 414 M 520 414 Q 523 430 527 414 M 620 414 Q 623 422 626 414" stroke="#39ff14" stroke-width="3" fill="none" filter="url(#slimeGlow)">
+    <animate attributeName="d" 
+      values="M 400 414 Q 405 425 408 414 M 520 414 Q 523 430 527 414 M 620 414 Q 623 422 626 414;
+              M 400 414 Q 405 432 408 414 M 520 414 Q 523 420 527 414 M 620 414 Q 623 435 626 414;
+              M 400 414 Q 405 425 408 414 M 520 414 Q 523 430 527 414 M 620 414 Q 623 422 626 414" 
+      dur="3s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Segment Markers -->
+  <g stroke="#020804" stroke-width="2" opacity="0.8">
+    <line x1="420" y1="398" x2="420" y2="414"/>
+    <line x1="540" y1="398" x2="540" y2="414"/>
+    <line x1="660" y1="398" x2="660" y2="414"/>
+    <line x1="780" y1="398" x2="780" y2="414"/>
   </g>
 </g>
 
-<!-- FOOTER HUD AMMO / ACCURACY METRICS -->
-<g font-family="monospace" font-size="10" fill="#36BCF7" opacity="0.7">
-  <text x="50" y="465">ACCURACY: 98.4%</text>
-  <text x="50" y="480">AMMO: UNLIMITED</text>
-  <text x="1150" y="465" text-anchor="end">MODE: TACTICAL_HUD</text>
-  <text x="1150" y="480" text-anchor="end">STATUS: LOCKED</text>
+<!-- FOOTER HUD METRICS -->
+<g font-family="monospace" font-size="10" fill="#39ff14" opacity="0.8">
+  <text x="50" y="465">PARASITE ACCURACY: 98.4%</text>
+  <text x="50" y="480">VENOM RESERVES: UNLIMITED</text>
+  <text x="1150" y="465" text-anchor="end">MODE: HAUNTED_HUD</text>
+  <text x="1150" y="480" text-anchor="end">STATUS: INFECTED</text>
 </g>
-
 </svg>
