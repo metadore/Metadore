@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,50:0f2742,100:123c4a&height=230&section=header&text=METADORE&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=EXPLORE%20%E2%80%A2%20EXPERIMENT%20%E2%80%A2%20BUILD%20%E2%80%A2%20GROW&descAlignY=61&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,50:0f2742,100:123c4a&height=230&section=header&text=METADORE&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=HYPERDREAM%20%E2%80%A2%20MUTATE%20%E2%80%A2%20SYNTHESIZE%20%E2%80%A2%20TRANSCEND&descAlignY=61&descSize=18" width="100%"/>
 
 <br>
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&duration=3000&pause=900&color=36BCF7&center=true&vCenter=true&width=800&lines=%5B+SYSTEM+ONLINE+%5D;Welcome+to+the+Metadore+Lab+%F0%9F%8C%B3;Chemistry+%E2%9A%97%EF%B8%8F+%2B+Art+%F0%9F%8E%A8+%2B+Technology+%F0%9F%92%BB;Curiosity+is+the+main+quest.;Growing+The+Metadore+Tree...+%F0%9F%8C%B1"/>
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&duration=3000&pause=900&color=36BCF7&center=true&vCenter=true&width=800&lines=%5B+BIOMECHANICAL+CORE+ONLINE+%5D;WARNING%3A+Uncontrolled+Curiosity+Vents!;Organic+Code+%2B+Quantum+Alchemy;Reality+is+a+suggestion.;Spooling+the+Metadore+Organism..."/>
 
 <br><br>
 
@@ -12,307 +12,291 @@
 
 <br><br>
 
-### `A DIGITAL TREE OF EXPERIMENTS, IDEAS & LEARNING`
+### `A SLIMY WEBBED NETWORK OF VOID-EXPERIMENTS, INFESTATIONS & UNANNOUNCED MUTATIONS`
 
 </div>
 
 ---
 
-# 🌳 METADORE // DIGITAL LAB
+# 🕷️ METADORE // THE TOXIC LAIR
 
 ```text
 ╔══════════════════════════════════════════════════════════════╗
-║                    METADORE SYSTEM                          ║
+║                    METADORE BIOCORE v6.6.6                   ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
-║  STATUS        : ONLINE                                      ║
-║  MODE          : EXPLORATION                                 ║
-║  MISSION       : LEARN • BUILD • EXPERIMENT                  ║
-║  CURIOSITY     : UNLIMITED                                   ║
-║  TREE STATUS   : 🌱 GROWING                                  ║
+║  CONTAINMENT    : INFESTED & BREACHED                        ║
+║  NEURAL SYNC    : HYPER-ACTIVE SPIDER-SENSE                  ║
+║  PRIMARY TASK   : DISSECT REALITY • WEAVE VOID PROTOCOLS     ║
+║  ENTROPY LEVEL  : OVER 9000                                  ║
+║  ORGANISM TYPE  : ARACHNID METAMORPH                         ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
-Welcome to **Metadore** — my digital tree of exploration.
+Welcome to **Metadore** — a crawling, sticky-webbed digital biome in constant mutation.
 
-This is my personal laboratory where I experiment, build, break things, understand how they work, and turn random ideas into projects.
+This is an uncalibrated proving ground where logic bends, venom-dipped hardware bleeds into software, and disturbing **“what if”** thoughts erupt into sentient constructs.
 
-Metadore isn't restricted to one field.
+No safety rails. No escape route.
 
-It grows wherever curiosity takes it.
+**It crawls wherever the infestation spreads.**
 
-> **“A growing tree of experiments, ideas, and learning.”**
+> **“A digital parasite that spins code-webs and devours complexity.”**
 
 ---
 
-# 🎮 PLAYER PROFILE
+# 🧬 ANOMALOUS SPECIMEN DOSSIER
 
-<div align="center">
-
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=18&duration=2400&pause=700&color=00FF9C&center=true&vCenter=true&width=600&lines=%3E+PLAYER+DETECTED;%3E+EXPLORER+MODE+ENABLED;%3E+LOADING+SKILL+TREE...;%3E+WELCOME%2C+METADORE"/>
-
-</div>
-
-| ATTRIBUTE              | STATUS            |
-| ---------------------- | ----------------- |
-| 🌱 Curiosity           | `██████████ 100%` |
-| 🧪 Experimentation     | `█████████░ 90%`  |
-| 💻 Technology          | `████████░░ 80%`  |
-| 🎨 Creativity          | `█████████░ 90%`  |
-| 🤖 AI Exploration      | `███████░░░ 70%`  |
-| 🔬 Scientific Thinking | `███████░░░ 70%`  |
+| MUTATION ANGLE        | THREAT LEVEL      |
+| --------------------- | ----------------- |
+| 🕳️ Void Curiosity    | `██████████ 100%` |
+| 🧪 Mad Science        | `█████████░ 90%`  |
+| ⚙️ Cyber-Mechanical   | `████████░░ 80%`  |
+| 🧠 Neural Aesthetic   | `█████████░ 90%`  |
+| 👁️ Machine Telepathy | `███████░░░ 70%`  |
+| ☣️ Unorthodox Logic   | `███████░░░ 70%`  |
 
 ```text
-CLASS       : EXPLORER / BUILDER
-PRIMARY     : LEARN BY BUILDING
-PASSIVE     : TURNING "WHAT IF?" INTO PROJECTS
-CURRENT XP  : ███████░░░░░░░
+SPECIES      : TECHNO-ARACHNID / SLIME-ARCHITECT
+TACTIC       : TRAP FIRST, WEAVE CODE WHILE IT WRIGGLES
+PERK         : ACCIDENTALLY SUMMONING WEIRD BUGS AT 3 AM
+EVOLUTION XP : ███████░░░░░░░ [SPINNING WEBS...]
 ```
 
 ---
 
-# 🌳 THE METADORE SKILL TREE
+# 🕸️ THE METADORE INFESTATION TREE
 
-<div align="center">
-
-<img src="./metadore-skill-tree.svg" width="100%" alt="Animated Metadore Skill Tree"/>
-
-</div>
-
-> **Every repository is a branch.**
-> **Every experiment is a leaf.**
-> **Every failure becomes another root.**
+> **Every repo is an egg sac.**
+>
+> **Every commit is a venomous rewrite.**
+>
+> **Every system crash feeds the spider nest.**
 
 ---
 
-# 🧪 QUEST LOG
+# 🕷️ HUNTING GROUNDS & VICTIM LOG
 
 ```text
 ╔════════════════════════════════════════════════════════════╗
-║                         QUEST LOG                           ║
+║                   TRAPPED IN THE SILK                      ║
 ╠════════════════════════════════════════════════════════════╣
 ║                                                            ║
-║ 🟢 COMPLETED                                               ║
-║    ├── Arduino Experiments                                 ║
-║    ├── Creative Coding                                    ║
-║    └── Developer Experiments                              ║
+║ DISSOLVED IN ACID (COMPLETED)                              ║
+║    ├── Silicon Micro-Hacks (Arduino)                       ║
+║    ├── Visual Hallucinations (Creative Coding)             ║
+║    └── Unsanctioned Developer Toys                         ║
 ║                                                            ║
-║ 🟡 ACTIVE                                                  ║
-║    ├── AI / ML Experiments                                ║
-║    ├── Gesture Recognition                                ║
-║    ├── Scientific Computing                               ║
-║    └── Experimental Web Projects                           ║
+║ ENTANGLED IN WEBS (ACTIVE)                                 ║
+║    ├── Neural Net Mutators (AI/ML)                         ║
+║    ├── Kinetic Gesture Puppetry                            ║
+║    ├── Computational Chaos Engines                         ║
+║    └── Experimental Web Abominations                       ║
 ║                                                            ║
-║ 🔵 EXPLORING                                               ║
-║    ├── Open Source                                        ║
-║    ├── Developer Tools                                    ║
-║    └── Human-Computer Interaction                         ║
+║ STALKING FROM SHADOWS (EXPLORING)                          ║
+║    ├── Hive-Mind Artifacts (Open Source)                   ║
+║    ├── Reality Amplifiers (Dev Tools)                      ║
+║    └── Cybernetic Cyborg Interfaces (HCI)                  ║
 ║                                                            ║
-║ 🔒 LOCKED                                                  ║
-║    └── ???                                                 ║
+║ LOCKED IN THE DUNGEON                                      ║
+║    └── [SEALED BY METADORE ELDERS]                         ║
 ║                                                            ║
 ╚════════════════════════════════════════════════════════════╝
 ```
 
 ---
 
-# ⚗️ THE LAB
+# ☣️ THE TOXIC OUBLIETTE
 
-<div align="center">
-
-| BRANCH | EXPLORATION             |
-| :----: | :---------------------- |
-|   💻   | Software Development    |
-|   🤖   | Artificial Intelligence |
-|   🔬   | Scientific Computing    |
-|   🎨   | Creative Technology     |
-|   🌐   | Web Experiments         |
-|   ⚙️   | Developer Tools         |
-|   🧪   | Random Experiments      |
-
-</div>
+| SECTOR    | ANOMALY TYPE                             |
+| --------- | ---------------------------------------- |
+| 💻 CODE   | Dark Sorcery & Byte Manipulation         |
+| 🤖 AI     | Synthetic Intelligence & Ghostly Mimicry |
+| 🧪 LAB    | Weird Physics & Slime Alchemy            |
+| 🎨 ART    | High-Octane Cyber Nightmares             |
+| 🌐 WEB    | Sticky Web Realm Structures              |
+| ⚙️ TOOL   | Reality-Altering Developer Weapons       |
+| ☢️ HAZARD | Highly Volatile Forbidden Rituals        |
 
 ---
 
-# 🛠️ TECHNOLOGY INVENTORY
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,c,cpp,git,github,vscode,html,css,js,arduino,linux&perline=6"/>
-
-</div>
+# 🗡️ ARSENAL OF THE VOID
 
 ```text
 ╔══════════════════════════════════════════════╗
-║              TECHNOLOGY INVENTORY            ║
+║               EQUIPPED ARTIFACTS             ║
 ╠══════════════════════════════════════════════╣
 ║                                              ║
-║ 💻 PROGRAMMING                              ║
-║    Python • C • C++                         ║
+║ VENOMOUS DIALECTS                            ║
+║    Python • C • C++                          ║
 ║                                              ║
-║ 🌐 WEB                                       ║
-║    HTML • CSS • JavaScript                  ║
+║ WEB WEAVING                                  ║
+║    HTML • CSS • JavaScript                   ║
 ║                                              ║
-║ 🤖 AI / ML                                   ║
-║    Exploring...                              ║
+║ SYNAPTIC PARASITISM                          ║
+║    Prototyping Artificial Consciousness...   ║
 ║                                              ║
-║ ⚡ HARDWARE                                  ║
-║    Arduino • Embedded Systems               ║
+║ SILICON TORTURE                              ║
+║    Arduino • Micro-Solder • Cyber-Hardware   ║
 ║                                              ║
-║ 🧰 TOOLS                                     ║
-║    Git • GitHub • VS Code                   ║
+║ BATTLE RIG                                   ║
+║    Git • GitHub • VS Code Terminal           ║
 ║                                              ║
-║ 🔬 RESEARCH                                  ║
-║    Scientific Computing                     ║
+║ ALCHEMICAL COMPUTING                         ║
+║    Algorithmic Chaos & Simulating Horror     ║
 ║                                              ║
 ╚══════════════════════════════════════════════╝
 ```
 
 ---
 
-# 🧠 AI CORE
+# 🧠 BRAIN CONTAINMENT VAT
 
-<div align="center">
-
-<img src="./metadore-terminal.svg" width="100%" alt="Metadore AI Terminal"/>
-
-</div>
-
----
-
-# 🏆 ACHIEVEMENTS
-
-<div align="center">
-
-<img src="./metadore-achievements.svg" width="100%" alt="Metadore Achievements"/>
-
-</div>
+> **NEURAL CONTAINMENT STATUS**
+>
+> `████████████████████████████ 100%`
+>
+> **WARNING:** Cognitive overflow detected.
+>
+> Curiosity levels have exceeded safe operating parameters.
 
 ---
 
-# 📊 SYSTEM TELEMETRY
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Metadore&theme=tokyo-night&hide_border=true" width="100%"/>
-
-<br><br>
-
-<img src="https://streak-stats.demolab.com?user=Metadore&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-# 🌌 CONTRIBUTION WORLD
-
-<div align="center">
-
-<img src="https://github.com/Metadore/Metadore/blob/output/github-contribution-grid-snake.svg" width="100%" alt="GitHub contribution snake animation"/>
-
-<br>
+# 🏆 TROPHIES & CURSES
 
 ```text
-EVERY SQUARE = ONE MORE STEP.
-
-EVERY CONTRIBUTION = ANOTHER BRANCH.
-
-THE TREE KEEPS GROWING.
-```
-
-</div>
-
----
-
-# 🔭 CURRENT EXPERIMENTS
-
-```text
-[01] 🧪  New programming concepts
-[02] 🤖  Artificial Intelligence
-[03] ⚙️  Experimental developer tools
-[04] 🔬  Scientific computing
-[05] 🎨  Creative interfaces
-[06] 🌐  Open-source exploration
-[07] 🧠  Human-computer interaction
+╔══════════════════════════════════════════════╗
+║              TROPHY ARCHIVE                  ║
+╠══════════════════════════════════════════════╣
+║                                              ║
+║ 🕷️ WEB WEAVER                               ║
+║    Created something that should not exist.  ║
+║                                              ║
+║ 🧪 MAD SCIENTIST                             ║
+║    Experimented before asking why.           ║
+║                                              ║
+║ 🤖 SYNTHETIC MIND                            ║
+║    Taught machines something strange.       ║
+║                                              ║
+║ ⚙️ SYSTEM BREAKER                            ║
+║    Found a bug. Broke it. Fixed it.          ║
+║                                              ║
+║ 🧠 NEURAL MUTATION                            ║
+║    Learned something completely unexpected.  ║
+║                                              ║
+╚══════════════════════════════════════════════╝
 ```
 
 ---
 
-# 🌱 FUTURE BRANCHES
+# 🧬 SLIME-LEVELS & VITAL SIGNS
+
+| SYSTEM                      | STATUS            |
+| --------------------------- | ----------------- |
+| 🧠 Neural Activity          | `█████████░ 90%`  |
+| 🕸️ Web Density             | `██████████ 100%` |
+| 🧪 Experimental Instability | `████████░░ 80%`  |
+| 🤖 Machine Consciousness    | `███████░░░ 70%`  |
+| ☣️ Containment Integrity    | `███░░░░░░░ 30%`  |
+| 🌀 Reality Stability        | `████░░░░░░ 40%`  |
+
+---
+
+# 🕸️ THE CRAWLING SPIDER GRID
 
 ```text
-                         🌳
+GREEN SQUARES = SPIDER EGGS HATCHING.
+
+EVERY COMMIT = ANOTHER WEBBED THREAD.
+
+THE CREATURE DEVOURS ALL SANITY.
+```
+
+---
+
+# 🧪 HORRIFYING EXPERIMENTS IN PROGRESS
+
+```text
+[01]  Compiling forbidden programming constructs
+[02]  Feeding synthetic minds with chaotic datasets
+[03]  Forging dev tools that feel illegal to use
+[04]  Simulating bizarre physical models
+[05]  Designing interfaces that melt minds
+[06]  Infiltrating open-source realms
+[07]  Dissolving boundaries between human skin and screens
+```
+
+---
+
+# 🧬 FUTURE INFESTATIONS
+
+```text
+                         VOID
                         /│\
                        / │ \
                       /  │  \
                      /   │   \
-                    🌱   🌱   🌱
-                   /     │     \
-                 AI    SCIENCE  CREATIVE
-                 │        │        │
-                ???      ???      ???
+                   WEB  SLIME  SILK
+                   /     │      \
+            CYBORG-AI  ALCHEMY  HYPER-ART
+               │         │         │
+              ???       ???       ???
 ```
 
-* 🤖 More AI experiments
-* 🔬 Science + technology projects
-* 🌐 Open-source contributions
-* 🎨 Creative developer tools
-* 🧠 Experimental interfaces
-* 🧪 Projects that begin with **“what if...?”**
+* 🧠 Self-modifying AI parasites
+* 🧪 Sci-Fi curses brought to reality
+* 🕸️ Infiltrating foreign codebases
+* 🌌 Cyberpunk visual interfaces
+* 🤖 Mind-machine interfaces
+* ☣️ Direct manifestations of **“what if we break this entirely?”**
 
 ---
 
-# 🔐 SECRET TERMINAL
-
-<div align="center">
+# 🔐 REDACTED VAULT
 
 ```text
-> connect metadore
+> OVERRIDE METADORE_CORE
 
-[✓] CONNECTION ESTABLISHED
+[✓] QUANTUM ENCRYPTION SHATTERED
 
-> scan --tree
+> SCAN --NEST
 
 ROOT
- ├── experiments
- ├── projects
- ├── research
- ├── creativity
- └── unknown
+ ├── bio_hazards
+ ├── experimental_weapons
+ ├── void_research
+ ├── neural_art
+ └── absolute_chaos
 
-> scan --unknown
+> READ --absolute_chaos
 
 ████████████████████████████ 100%
 
-ACCESS DENIED.
+WARNING: RETINA DISSOLVED.
 
-There are still branches you haven't discovered.
-
-🌱
+You are not biologically prepared for these webs yet.
 ```
-
-</div>
 
 ---
 
-# 🌌 PHILOSOPHY
+# 🕷️ THE DARK MANIFESTO
 
 <div align="center">
 
-### Learn by building.
+### Synthesize over studying.
 
-### Build by experimenting.
+### Mutate over replicating.
 
-### Experiment without fear.
+### Experiment without permission.
 
-### Progress > Perfection.
+### Evolution > Perfection.
 
 <br>
 
-**The tree doesn't need every branch to be perfect.**
+**The spider does not care if the web looks messy.**
 
-**It just needs to keep growing. 🌳**
+**It only demands that it traps everything.**
 
 </div>
 
@@ -320,17 +304,17 @@ There are still branches you haven't discovered.
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=18&duration=3500&pause=900&color=36BCF7&center=true&vCenter=true&width=700&lines=SYSTEM+STATUS%3A+GROWING+%F0%9F%8C%B1;NEW+BRANCH+DETECTED...;EXPERIMENT+IN+PROGRESS...;SEE+YOU+IN+THE+NEXT+BRANCH+%F0%9F%8C%B3"/>
+`METADORE // END OF VOID TRANSMISSION`
 
 <br><br>
 
-`METADORE // END OF TRANSMISSION`
+🕸️ **Traverse the web.**
+🧪 **Infect yourself with curiosity.**
+🧬 **Observe the mutation.**
 
 <br><br>
 
-⭐ **Explore the branches.**
-🧪 **Follow the experiments.**
-🌱 **See what grows.**
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=18&duration=3500&pause=900&color=36BCF7&center=true&vCenter=true&width=700&lines=INFESTATION+CONTINUES...;NEW+MUTATION+DETECTED...;SYSTEM+CONTAINMENT+FAILED...;METADORE+IS+STILL+EVOLVING..."/>
 
 </div>
 
