@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,50:0f2742,100:123c4a&height=230&section=header&text=METADORE&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=HYPERDREAM%20%E2%80%A2%20MUTATE%20%E2%80%A2%20SYNTHESIZE%20%E2%80%A2%20TRANSCEND&descAlignY=61&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,35:1a0033,70:4d0000,100:000000&height=230&section=header&text=METADORE&fontSize=72&fontColor=66ff33&animation=fadeIn&fontAlignY=38&desc=INFEST%20%E2%80%A2%20MUTATE%20%E2%80%A2%20DRAIN%20%E2%80%A2%20HAUNT&descAlignY=61&descSize=18" width="100%"/>
 
 <br>
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&duration=3000&pause=900&color=36BCF7&center=true&vCenter=true&width=800&lines=%5B+BIOMECHANICAL+CORE+ONLINE+%5D;WARNING%3A+Uncontrolled+Curiosity+Vents!;Organic+Code+%2B+Quantum+Alchemy;Reality+is+a+suggestion.;Spooling+the+Metadore+Organism..."/>
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&duration=3000&pause=900&color=66FF33&center=true&vCenter=true&width=800&lines=%5B+SLIME+CORE+INFESTED+%5D;WARNING%3A+Eldritch+Spores+Released!;Spider-Sense+%2B+Toxic+Solder+%2B+Void+Darkness;Sanity+is+a+hallucination.;Awakening+the+Metadore+Abomination..."/>
 
 <br><br>
 
@@ -48,14 +48,14 @@ No safety rails. No escape route.
 
 # 🧬 ANOMALOUS SPECIMEN DOSSIER
 
-| MUTATION ANGLE        | THREAT LEVEL      |
-| --------------------- | ----------------- |
-| 🕳️ Void Curiosity    | `██████████ 100%` |
-| 🧪 Mad Science        | `█████████░ 90%`  |
-| ⚙️ Cyber-Mechanical   | `████████░░ 80%`  |
-| 🧠 Neural Aesthetic   | `█████████░ 90%`  |
-| 👁️ Machine Telepathy | `███████░░░ 70%`  |
-| ☣️ Unorthodox Logic   | `███████░░░ 70%`  |
+| MUTATION ANGLE | THREAT LEVEL |
+|:---|:---:|
+| 🕳️ Void Curiosity | `██████████ 100%` |
+| 🧪 Mad Science | `█████████░ 90%` |
+| ⚙️ Cyber-Mechanical | `████████░░ 80%` |
+| 🧠 Neural Aesthetic | `█████████░ 90%` |
+| 👁️ Machine Telepathy | `███████░░░ 70%` |
+| ☣️ Unorthodox Logic | `███████░░░ 70%` |
 
 ```text
 SPECIES      : TECHNO-ARACHNID / SLIME-ARCHITECT
@@ -67,6 +67,14 @@ EVOLUTION XP : ███████░░░░░░░ [SPINNING WEBS...]
 ---
 
 # 🕸️ THE METADORE INFESTATION TREE
+
+<div align="center">
+
+<img src="./metadore-skill-tree.svg"
+     width="100%"
+     alt="Metadore Infestation Skill Tree"/>
+
+</div>
 
 > **Every repo is an egg sac.**
 >
@@ -109,15 +117,15 @@ EVOLUTION XP : ███████░░░░░░░ [SPINNING WEBS...]
 
 # ☣️ THE TOXIC OUBLIETTE
 
-| SECTOR    | ANOMALY TYPE                             |
-| --------- | ---------------------------------------- |
-| 💻 CODE   | Dark Sorcery & Byte Manipulation         |
-| 🤖 AI     | Synthetic Intelligence & Ghostly Mimicry |
-| 🧪 LAB    | Weird Physics & Slime Alchemy            |
-| 🎨 ART    | High-Octane Cyber Nightmares             |
-| 🌐 WEB    | Sticky Web Realm Structures              |
-| ⚙️ TOOL   | Reality-Altering Developer Weapons       |
-| ☢️ HAZARD | Highly Volatile Forbidden Rituals        |
+| SECTOR | ANOMALY TYPE |
+|:---|:---|
+| 💻 CODE | Dark Sorcery & Byte Manipulation |
+| 🤖 AI | Synthetic Intelligence & Ghostly Mimicry |
+| 🧪 LAB | Weird Physics & Slime Alchemy |
+| 🎨 ART | High-Octane Cyber Nightmares |
+| 🌐 WEB | Sticky Web Realm Structures |
+| ⚙️ TOOL | Reality-Altering Developer Weapons |
+| ☢️ HAZARD | Highly Volatile Forbidden Rituals |
 
 ---
 
@@ -135,16 +143,16 @@ EVOLUTION XP : ███████░░░░░░░ [SPINNING WEBS...]
 ║    HTML • CSS • JavaScript                   ║
 ║                                              ║
 ║ SYNAPTIC PARASITISM                          ║
-║    Prototyping Artificial Consciousness...   ║
+║    Prototyping Artificial Intelligence...    ║
 ║                                              ║
 ║ SILICON TORTURE                              ║
-║    Arduino • Micro-Solder • Cyber-Hardware   ║
+║    Arduino • Embedded Systems               ║
 ║                                              ║
 ║ BATTLE RIG                                   ║
-║    Git • GitHub • VS Code Terminal           ║
+║    Git • GitHub • VS Code                    ║
 ║                                              ║
 ║ ALCHEMICAL COMPUTING                         ║
-║    Algorithmic Chaos & Simulating Horror     ║
+║    Algorithms • Data • Simulation            ║
 ║                                              ║
 ╚══════════════════════════════════════════════╝
 ```
@@ -153,57 +161,50 @@ EVOLUTION XP : ███████░░░░░░░ [SPINNING WEBS...]
 
 # 🧠 BRAIN CONTAINMENT VAT
 
-> **NEURAL CONTAINMENT STATUS**
->
-> `████████████████████████████ 100%`
->
-> **WARNING:** Cognitive overflow detected.
->
-> Curiosity levels have exceeded safe operating parameters.
+<div align="center">
+
+<img src="./metadore-terminal.svg"
+     width="100%"
+     alt="Metadore Neural Containment Terminal"/>
+
+</div>
 
 ---
 
 # 🏆 TROPHIES & CURSES
 
-```text
-╔══════════════════════════════════════════════╗
-║              TROPHY ARCHIVE                  ║
-╠══════════════════════════════════════════════╣
-║                                              ║
-║ 🕷️ WEB WEAVER                               ║
-║    Created something that should not exist.  ║
-║                                              ║
-║ 🧪 MAD SCIENTIST                             ║
-║    Experimented before asking why.           ║
-║                                              ║
-║ 🤖 SYNTHETIC MIND                            ║
-║    Taught machines something strange.       ║
-║                                              ║
-║ ⚙️ SYSTEM BREAKER                            ║
-║    Found a bug. Broke it. Fixed it.          ║
-║                                              ║
-║ 🧠 NEURAL MUTATION                            ║
-║    Learned something completely unexpected.  ║
-║                                              ║
-╚══════════════════════════════════════════════╝
-```
+<div align="center">
+
+<img src="./metadore-achievements.svg"
+     width="100%"
+     alt="Metadore Trophies and Curses"/>
+
+</div>
 
 ---
 
 # 🧬 SLIME-LEVELS & VITAL SIGNS
 
-| SYSTEM                      | STATUS            |
-| --------------------------- | ----------------- |
-| 🧠 Neural Activity          | `█████████░ 90%`  |
-| 🕸️ Web Density             | `██████████ 100%` |
-| 🧪 Experimental Instability | `████████░░ 80%`  |
-| 🤖 Machine Consciousness    | `███████░░░ 70%`  |
-| ☣️ Containment Integrity    | `███░░░░░░░ 30%`  |
-| 🌀 Reality Stability        | `████░░░░░░ 40%`  |
+| SYSTEM | STATUS |
+|:---|:---:|
+| 🧠 Neural Activity | `█████████░ 90%` |
+| 🕸️ Web Density | `██████████ 100%` |
+| 🧪 Experimental Instability | `████████░░ 80%` |
+| 🤖 Machine Consciousness | `███████░░░ 70%` |
+| ☣️ Containment Integrity | `███░░░░░░░ 30%` |
+| 🌀 Reality Stability | `████░░░░░░ 40%` |
 
 ---
 
 # 🕸️ THE CRAWLING SPIDER GRID
+
+<div align="center">
+
+<img src="https://github.com/Metadore/Metadore/blob/output/github-contribution-grid-snake.svg"
+     width="100%"
+     alt="Metadore contribution infestation"/>
+
+<br>
 
 ```text
 GREEN SQUARES = SPIDER EGGS HATCHING.
@@ -212,6 +213,8 @@ EVERY COMMIT = ANOTHER WEBBED THREAD.
 
 THE CREATURE DEVOURS ALL SANITY.
 ```
+
+</div>
 
 ---
 
@@ -244,12 +247,12 @@ THE CREATURE DEVOURS ALL SANITY.
               ???       ???       ???
 ```
 
-* 🧠 Self-modifying AI parasites
-* 🧪 Sci-Fi curses brought to reality
-* 🕸️ Infiltrating foreign codebases
-* 🌌 Cyberpunk visual interfaces
-* 🤖 Mind-machine interfaces
-* ☣️ Direct manifestations of **“what if we break this entirely?”**
+- 🧠 Self-modifying AI parasites
+- 🧪 Sci-Fi curses brought to reality
+- 🕸️ Infiltrating foreign codebases
+- 🌌 Cyberpunk visual interfaces
+- 🤖 Mind-machine interfaces
+- ☣️ Direct manifestations of **“what if we break this entirely?”**
 
 ---
 
@@ -308,14 +311,14 @@ You are not biologically prepared for these webs yet.
 
 <br><br>
 
-🕸️ **Traverse the web.**
-🧪 **Infect yourself with curiosity.**
+🕸️ **Traverse the web.**  
+🧪 **Infect yourself with curiosity.**  
 🧬 **Observe the mutation.**
 
 <br><br>
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=18&duration=3500&pause=900&color=36BCF7&center=true&vCenter=true&width=700&lines=INFESTATION+CONTINUES...;NEW+MUTATION+DETECTED...;SYSTEM+CONTAINMENT+FAILED...;METADORE+IS+STILL+EVOLVING..."/>
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=18&duration=3500&pause=900&color=66FF33&center=true&vCenter=true&width=700&lines=INFESTATION+CONTINUES...;NEW+MUTATION+DETECTED...;SYSTEM+CONTAINMENT+FAILED...;METADORE+IS+STILL+EVOLVING..."/>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:123c4a,50:0f2742,100:050816&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,35:4d0000,70:1a0033,100:000000&height=120&section=footer" width="100%"/>
