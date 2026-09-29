@@ -1,440 +1,234 @@
-<svg width="1200" height="650" viewBox="0 0 1200 650"
-xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="650" viewBox="0 0 1200 650" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
 
-<linearGradient id="treeGradient" x1="0" y1="0" x2="0" y2="1">
-<stop offset="0%" stop-color="#36BCF7"/>
-<stop offset="100%" stop-color="#00FF9C"/>
-</linearGradient>
+  <!-- GRADIENTS -->
+  <linearGradient id="bgGradient" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#03080e"/>
+    <stop offset="50%" stop-color="#07131e"/>
+    <stop offset="100%" stop-color="#0a1926"/>
+  </linearGradient>
 
-<filter id="glow">
-<feGaussianBlur stdDeviation="5" result="blur"/>
-<feMerge>
-<feMergeNode in="blur"/>
-<feMergeNode in="SourceGraphic"/>
-</feMerge>
-</filter>
+  <linearGradient id="trunkGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+    <stop offset="0%" stop-color="#00FF9C"/>
+    <stop offset="40%" stop-color="#36BCF7"/>
+    <stop offset="100%" stop-color="#b56cff"/>
+  </linearGradient>
 
-<filter id="strongGlow">
-<feGaussianBlur stdDeviation="12"/>
-</filter>
+  <linearGradient id="techBranch" x1="100%" y1="100%" x2="0%" y2="0%">
+    <stop offset="0%" stop-color="#36BCF7"/>
+    <stop offset="100%" stop-color="#00f2ff"/>
+  </linearGradient>
+
+  <linearGradient id="scienceBranch" x1="0%" y1="100%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#36BCF7"/>
+    <stop offset="100%" stop-color="#00FF9C"/>
+  </linearGradient>
+
+  <linearGradient id="artBranch" x1="100%" y1="100%" x2="0%" y2="0%">
+    <stop offset="0%" stop-color="#36BCF7"/>
+    <stop offset="100%" stop-color="#ff66cc"/>
+  </linearGradient>
+
+  <linearGradient id="webBranch" x1="0%" y1="100%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#36BCF7"/>
+    <stop offset="100%" stop-color="#b56cff"/>
+  </linearGradient>
+
+  <!-- GLOW FILTERS -->
+  <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="6" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <filter id="strongGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="16" result="blur1"/>
+    <feGaussianBlur stdDeviation="8" result="blur2"/>
+    <feMerge>
+      <feMergeNode in="blur1"/>
+      <feMergeNode in="blur2"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <!-- NODE PATTERN DECORATION -->
+  <radialGradient id="nodeBg" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#0d2335"/>
+    <stop offset="100%" stop-color="#040a10"/>
+  </radialGradient>
 
 </defs>
 
 <!-- BACKGROUND -->
-
-<rect width="1200" height="650"
-rx="25"
-fill="#050b12"
-stroke="#203a43"
-stroke-width="2"/>
+<rect width="1200" height="650" rx="20" fill="url(#bgGradient)" stroke="#1a3545" stroke-width="2"/>
 
 <!-- GRID -->
+<g opacity="0.05" stroke="#36BCF7" stroke-width="1">
+  <line x1="0" y1="100" x2="1200" y2="100"/>
+  <line x1="0" y1="200" x2="1200" y2="200"/>
+  <line x1="0" y1="300" x2="1200" y2="300"/>
+  <line x1="0" y1="400" x2="1200" y2="400"/>
+  <line x1="0" y1="500" x2="1200" y2="500"/>
 
-<g opacity="0.07" stroke="#36BCF7">
-
-<line x1="0" y1="100" x2="1200" y2="100"/>
-<line x1="0" y1="200" x2="1200" y2="200"/>
-<line x1="0" y1="300" x2="1200" y2="300"/>
-<line x1="0" y1="400" x2="1200" y2="400"/>
-<line x1="0" y1="500" x2="1200" y2="500"/>
-
-<line x1="100" y1="0" x2="100" y2="650"/>
-<line x1="300" y1="0" x2="300" y2="650"/>
-<line x1="500" y1="0" x2="500" y2="650"/>
-<line x1="700" y1="0" x2="700" y2="650"/>
-<line x1="900" y1="0" x2="900" y2="650"/>
-<line x1="1100" y1="0" x2="1100" y2="650"/>
-
+  <line x1="150" y1="0" x2="150" y2="650"/>
+  <line x1="350" y1="0" x2="350" y2="650"/>
+  <line x1="600" y1="0" x2="600" y2="650"/>
+  <line x1="850" y1="0" x2="850" y2="650"/>
+  <line x1="1050" y1="0" x2="1050" y2="650"/>
 </g>
 
-<!-- PARTICLES -->
-
+<!-- AMBIENT PARTICLES -->
 <g fill="#36BCF7">
-
-<circle cx="100" cy="120" r="2">
-<animate attributeName="opacity"
-values="0.2;1;0.2"
-dur="2s"
-repeatCount="indefinite"/>
-</circle>
-
-<circle cx="1080" cy="150" r="2">
-<animate attributeName="opacity"
-values="1;0.2;1"
-dur="3s"
-repeatCount="indefinite"/>
-</circle>
-
-<circle cx="920" cy="500" r="2">
-<animate attributeName="opacity"
-values="0.2;1;0.2"
-dur="2.5s"
-repeatCount="indefinite"/>
-</circle>
-
-<circle cx="150" cy="500" r="2">
-<animate attributeName="opacity"
-values="1;0.2;1"
-dur="4s"
-repeatCount="indefinite"/>
-</circle>
-
-<circle cx="250" cy="80" r="2">
-<animate attributeName="opacity"
-values="0.2;1;0.2"
-dur="3.5s"
-repeatCount="indefinite"/>
-</circle>
-
-<circle cx="1000" cy="400" r="2">
-<animate attributeName="opacity"
-values="1;0.2;1"
-dur="2.7s"
-repeatCount="indefinite"/>
-</circle>
-
+  <circle cx="120" cy="140" r="2.5"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="2.2s" repeatCount="indefinite"/></circle>
+  <circle cx="1060" cy="130" r="2.5"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="3.1s" repeatCount="indefinite"/></circle>
+  <circle cx="940" cy="480" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" repeatCount="indefinite"/></circle>
+  <circle cx="180" cy="490" r="2"><animate attributeName="opacity" values="0.9;0.1;0.9" dur="3.8s" repeatCount="indefinite"/></circle>
+  <circle cx="280" cy="90" r="1.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.4s" repeatCount="indefinite"/></circle>
+  <circle cx="980" cy="380" r="2"><animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite"/></circle>
+  <circle cx="580" cy="220" r="1.5"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="1.8s" repeatCount="indefinite"/></circle>
+  <circle cx="620" cy="340" r="2"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.9s" repeatCount="indefinite"/></circle>
 </g>
-
-<!-- TITLE -->
-
-<text x="600"
-y="55"
-text-anchor="middle"
-fill="white"
-font-family="monospace"
-font-size="28"
-font-weight="bold">
-
-METADORE // SKILL TREE
-
-</text>
-
-<text x="600"
-y="78"
-text-anchor="middle"
-fill="#36BCF7"
-font-family="monospace"
-font-size="11">
-
-
-
-</text>
-
-<!-- MAIN TREE GLOW -->
-
-<path d="M600 560
-C600 470 600 390 600 300
-C600 220 600 160 600 105"
-stroke="#36BCF7"
-stroke-width="18"
-opacity="0.08"
-fill="none"
-filter="url(#strongGlow)"/>
-
-<!-- TREE -->
-
-<g fill="none"
-stroke="url(#treeGradient)"
-stroke-width="8"
-stroke-linecap="round"
-filter="url(#glow)">
-
-<!-- TRUNK -->
-
-<path d="M600 560
-C600 470 600 390 600 300
-C600 220 600 160 600 105"
-stroke-dasharray="600"
-stroke-dashoffset="600">
-
-<animate
-attributeName="stroke-dashoffset"
-from="600"
-to="0"
-dur="3s"
-fill="freeze"/>
-
-</path>
-
-<!-- TECHNOLOGY -->
-
-<path d="M600 330
-C520 315 430 260 330 210"/>
-
-<!-- SCIENCE -->
-
-<path d="M600 360
-C680 340 780 275 870 215"/>
-
-<!-- ART -->
-
-<path d="M600 270
-C520 210 450 160 380 120"/>
-
-<!-- WEB -->
-
-<path d="M600 250
-C690 190 770 150 840 120"/>
-
-</g>
-
-<!-- ROOTS -->
-
-<g fill="none"
-stroke="#00FF9C"
-stroke-width="4"
-opacity="0.7">
-
-<path d="M600 560 C520 590 450 610 370 620"/>
-<path d="M600 560 C680 590 750 610 830 620"/>
-<path d="M600 560 C560 600 530 620 500 630"/>
-<path d="M600 560 C640 600 670 620 700 630"/>
-
-</g>
-
-<!-- ROOT NODE -->
-
-<circle cx="600"
-cy="105"
-r="45"
-fill="#07111a"
-stroke="#36BCF7"
-stroke-width="4"
-filter="url(#glow)">
-
-<animate
-attributeName="r"
-values="45;50;45"
-dur="2s"
-repeatCount="indefinite"/>
-
-</circle>
-
-<text x="600"
-y="102"
-text-anchor="middle"
-fill="white"
-font-family="monospace"
-font-size="17"
-font-weight="bold">
-
-METADORE
-
-</text>
-
-<text x="600"
-y="122"
-text-anchor="middle"
-fill="#36BCF7"
-font-family="monospace"
-font-size="10">
-
-ROOT NODE
-
-</text>
-
-<!-- TECH NODE -->
-
-<circle cx="330"
-cy="210"
-r="43"
-fill="#07111a"
-stroke="#36BCF7"
-stroke-width="3"
-filter="url(#glow)">
-
-<animate
-attributeName="stroke-width"
-values="3;5;3"
-dur="2s"
-repeatCount="indefinite"/>
-
-</circle>
-
-<text x="330"
-y="207"
-text-anchor="middle"
-fill="white"
-font-family="monospace"
-font-size="14"
-font-weight="bold">
-
-TECH
-
-</text>
-
-<text x="330"
-y="224"
-text-anchor="middle"
-fill="#36BCF7"
-font-family="monospace"
-font-size="9">
-
-ACTIVE
-
-</text>
-
-<!-- SCIENCE NODE -->
-
-<circle cx="870"
-cy="215"
-r="43"
-fill="#07111a"
-stroke="#00FF9C"
-stroke-width="3"
-filter="url(#glow)">
-
-<animate
-attributeName="stroke-width"
-values="3;5;3"
-dur="2.5s"
-repeatCount="indefinite"/>
-
-</circle>
-
-<text x="870"
-y="212"
-text-anchor="middle"
-fill="white"
-font-family="monospace"
-font-size="14"
-font-weight="bold">
-
-SCIENCE
-
-</text>
-
-<text x="870"
-y="229"
-text-anchor="middle"
-fill="#00FF9C"
-font-family="monospace"
-font-size="9">
-
-EXPLORING
-
-</text>
-
-<!-- ART NODE -->
-
-<circle cx="380"
-cy="120"
-r="36"
-fill="#07111a"
-stroke="#ff66cc"
-stroke-width="3"
-filter="url(#glow)"/>
-
-<text x="380"
-y="117"
-text-anchor="middle"
-fill="white"
-font-family="monospace"
-font-size="13"
-font-weight="bold">
-
-ART
-
-</text>
-
-<text x="380"
-y="133"
-text-anchor="middle"
-fill="#ff66cc"
-font-family="monospace"
-font-size="9">
-
-CREATIVE
-
-</text>
-
-<!-- WEB NODE -->
-
-<circle cx="840"
-cy="120"
-r="36"
-fill="#07111a"
-stroke="#b56cff"
-stroke-width="3"
-filter="url(#glow)"/>
-
-<text x="840"
-y="117"
-text-anchor="middle"
-fill="white"
-font-family="monospace"
-font-size="13"
-font-weight="bold">
-
-WEB
-
-</text>
-
-<text x="840"
-y="133"
-text-anchor="middle"
-fill="#b56cff"
-font-family="monospace"
-font-size="9">
-
-BUILDING
-
-</text>
-
-<!-- LOWER SKILLS -->
-
-<g font-family="monospace"
-font-size="14"
-fill="#d7f9ff">
-
-<text x="235" y="330">
-AI / ML
-</text>
-
-<text x="420" y="355">
-TOOLS
-</text>
-
-<text x="735" y="360">
-RESEARCH
-</text>
-
-<text x="910" y="335">
-DATA
-</text>
-
-</g>
-
-<!-- STATUS -->
-
-<text x="600"
-y="590"
-text-anchor="middle"
-fill="#36BCF7"
-font-family="monospace"
-font-size="14">
-
-
-
-</text>
 
 <!-- SCANNING LINE -->
-
-<rect x="100"
-y="85"
-width="1000"
-height="2"
-fill="#36BCF7"
-opacity="0.25">
-
-<animate
-attributeName="y"
-values="85;570;85"
-dur="5s"
-repeatCount="indefinite"/>
-
+<rect x="80" y="80" width="1040" height="1.5" fill="#36BCF7" opacity="0.2">
+  <animate attributeName="y" values="80;570;80" dur="6s" repeatCount="indefinite"/>
 </rect>
+
+<!-- TITLE BLOCK -->
+<g font-family="monospace" text-anchor="middle">
+  <text x="600" y="48" fill="#ffffff" font-size="26" font-weight="bold" letter-spacing="4" filter="url(#softGlow)">METADORE // SKILL TREE</text>
+  <text x="600" y="68" fill="#36BCF7" font-size="10" letter-spacing="2" opacity="0.8"></text>
+</g>
+
+<!-- ROOTS SYSTEM -->
+<g fill="none" stroke-linecap="round" opacity="0.6">
+  <path d="M600 580 C500 600 380 615 260 625" stroke="#00FF9C" stroke-width="6" filter="url(#softGlow)"/>
+  <path d="M600 580 C700 600 820 615 940 625" stroke="#00FF9C" stroke-width="6" filter="url(#softGlow)"/>
+  <path d="M580 580 C520 605 440 620 370 635" stroke="#36BCF7" stroke-width="4"/>
+  <path d="M620 580 C680 605 760 620 830 635" stroke="#36BCF7" stroke-width="4"/>
+  <path d="M595 580 C560 610 520 625 480 640" stroke="#00FF9C" stroke-width="2.5"/>
+  <path d="M605 580 C640 610 680 625 720 640" stroke="#00FF9C" stroke-width="2.5"/>
+</g>
+
+<!-- MAIN TRUNK BACKGROUND GLOW -->
+<path d="M600 580 C580 470 620 380 600 280 C590 220 600 150 600 105"
+      stroke="#36BCF7" stroke-width="45" opacity="0.08" fill="none" filter="url(#strongGlow)"/>
+
+<!-- MAIN TRUNK (ORGANIC BRAIDED STRANDS) -->
+<g fill="none" stroke-linecap="round" filter="url(#softGlow)">
+  <!-- Outer Trunk Silhouette / Base -->
+  <path d="M600 580 C570 470 625 370 595 270 C585 210 600 150 600 105" stroke="url(#trunkGradient)" stroke-width="18"/>
+  <path d="M600 580 C630 470 575 370 605 270 C615 210 600 150 600 105" stroke="url(#trunkGradient)" stroke-width="14" opacity="0.8"/>
+  
+  <!-- Intertwined Core Fibers -->
+  <path d="M575 580 C550 490 630 390 585 290 C575 230 595 160 600 105" stroke="#00FF9C" stroke-width="4" opacity="0.9"/>
+  <path d="M625 580 C650 490 570 390 615 290 C625 230 605 160 600 105" stroke="#36BCF7" stroke-width="4" opacity="0.9"/>
+  <path d="M590 580 C610 480 585 380 600 280 C605 220 598 150 600 105" stroke="#ffffff" stroke-width="2" opacity="0.9"/>
+  <path d="M610 580 C590 480 615 380 600 280 C595 220 602 150 600 105" stroke="#b56cff" stroke-width="3" opacity="0.7"/>
+</g>
+
+<!-- PRIMARY BRANCHES -->
+<g fill="none" stroke-linecap="round" filter="url(#softGlow)">
+  <!-- Tech Branch (Left-Mid) -->
+  <path d="M590 350 C520 340 430 280 330 220" stroke="url(#techBranch)" stroke-width="7"/>
+  <path d="M585 345 C515 335 435 275 330 220" stroke="#ffffff" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- Science Branch (Right-Mid) -->
+  <path d="M610 370 C690 350 780 285 870 220" stroke="url(#scienceBranch)" stroke-width="7"/>
+  <path d="M615 365 C695 345 775 280 870 220" stroke="#ffffff" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- Art Branch (Left-Top) -->
+  <path d="M595 240 C520 190 450 155 380 120" stroke="url(#artBranch)" stroke-width="6"/>
+  <path d="M592 235 C522 188 448 152 380 120" stroke="#ffffff" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- Web Branch (Right-Top) -->
+  <path d="M605 220 C690 175 770 145 840 120" stroke="url(#webBranch)" stroke-width="6"/>
+  <path d="M608 215 C692 172 768 142 840 120" stroke="#ffffff" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- Sub-Branches to Lower Skills -->
+  <path d="M430 280 C360 300 300 320 250 330" stroke="#36BCF7" stroke-width="3" opacity="0.7"/>
+  <path d="M470 305 C450 325 435 340 425 350" stroke="#36BCF7" stroke-width="2.5" opacity="0.7"/>
+  <path d="M770 290 C810 315 860 330 910 335" stroke="#00FF9C" stroke-width="3" opacity="0.7"/>
+  <path d="M730 310 C745 330 755 345 765 355" stroke="#00FF9C" stroke-width="2.5" opacity="0.7"/>
+</g>
+
+<!-- SUB-SKILL CONNECTORS & LABELS -->
+<g font-family="monospace" font-size="12" fill="#e0f7ff" text-anchor="middle">
+  <!-- AI / ML -->
+  <circle cx="250" cy="330" r="4" fill="#36BCF7" filter="url(#softGlow)"/>
+  <text x="250" y="350" font-weight="bold">AI / ML</text>
+
+  <!-- TOOLS -->
+  <circle cx="425" cy="350" r="4" fill="#36BCF7" filter="url(#softGlow)"/>
+  <text x="425" y="370" font-weight="bold">TOOLS</text>
+
+  <!-- RESEARCH -->
+  <circle cx="765" cy="355" r="4" fill="#00FF9C" filter="url(#softGlow)"/>
+  <text x="765" y="375" font-weight="bold">RESEARCH</text>
+
+  <!-- DATA -->
+  <circle cx="910" cy="335" r="4" fill="#00FF9C" filter="url(#softGlow)"/>
+  <text x="910" y="355" font-weight="bold">DATA</text>
+</g>
+
+<!-- MAIN NODES -->
+
+<!-- 1. ROOT NODE (METADORE) -->
+<g transform="translate(600, 105)">
+  <circle r="52" fill="url(#nodeBg)" stroke="#36BCF7" stroke-width="2" opacity="0.5"/>
+  <circle r="45" fill="#050e17" stroke="#36BCF7" stroke-width="4" filter="url(#softGlow)">
+    <animate attributeName="r" values="45;48;45" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="38" fill="none" stroke="#00FF9C" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text y="-3" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="16" font-weight="bold" letter-spacing="1">METADORE</text>
+  <text y="16" text-anchor="middle" fill="#36BCF7" font-family="monospace" font-size="9" letter-spacing="2">ROOT NODE</text>
+</g>
+
+<!-- 2. TECH NODE -->
+<g transform="translate(330, 220)">
+  <circle r="45" fill="url(#nodeBg)" stroke="#36BCF7" stroke-width="1.5" opacity="0.6"/>
+  <circle r="38" fill="#050e17" stroke="#36BCF7" stroke-width="3" filter="url(#softGlow)">
+    <animate attributeName="stroke-width" values="3;5;3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text y="-2" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold">TECH</text>
+  <text y="15" text-anchor="middle" fill="#36BCF7" font-family="monospace" font-size="9" letter-spacing="1">ACTIVE</text>
+</g>
+
+<!-- 3. SCIENCE NODE -->
+<g transform="translate(870, 220)">
+  <circle r="45" fill="url(#nodeBg)" stroke="#00FF9C" stroke-width="1.5" opacity="0.6"/>
+  <circle r="38" fill="#050e17" stroke="#00FF9C" stroke-width="3" filter="url(#softGlow)">
+    <animate attributeName="stroke-width" values="3;5;3" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <text y="-2" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="14" font-weight="bold">SCIENCE</text>
+  <text y="15" text-anchor="middle" fill="#00FF9C" font-family="monospace" font-size="9" letter-spacing="1">EXPLORING</text>
+</g>
+
+<!-- 4. ART NODE -->
+<g transform="translate(380, 120)">
+  <circle r="38" fill="url(#nodeBg)" stroke="#ff66cc" stroke-width="1.5" opacity="0.6"/>
+  <circle r="32" fill="#050e17" stroke="#ff66cc" stroke-width="3" filter="url(#softGlow)"/>
+  <text y="-2" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="13" font-weight="bold">ART</text>
+  <text y="14" text-anchor="middle" fill="#ff66cc" font-family="monospace" font-size="8" letter-spacing="1">CREATIVE</text>
+</g>
+
+<!-- 5. WEB NODE -->
+<g transform="translate(840, 120)">
+  <circle r="38" fill="url(#nodeBg)" stroke="#b56cff" stroke-width="1.5" opacity="0.6"/>
+  <circle r="32" fill="#050e17" stroke="#b56cff" stroke-width="3" filter="url(#softGlow)"/>
+  <text y="-2" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="13" font-weight="bold">WEB</text>
+  <text y="14" text-anchor="middle" fill="#b56cff" font-family="monospace" font-size="8" letter-spacing="1">BUILDING</text>
+</g>
+
+<!-- HUD / STATUS FOOTER -->
+<g font-family="monospace" font-size="10" fill="#36BCF7" opacity="0.8">
+  <text x="100" y="595">CORE_VER: 2.0.4</text>
+  <text x="100" y="612">STATUS: OPTIMAL</text>
+  <text x="1100" y="595" text-anchor="end">BRANCHES: 04</text>
+  <text x="1100" y="612" text-anchor="end">NODES_SYNCED: 100%</text>
+</g>
 
 </svg>
