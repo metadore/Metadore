@@ -1,223 +1,174 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090014,25:3D145E,55:BA286D,80:FF7657,100:090014&height=250&section=header&text=METADORE&fontSize=85&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=WELCOME%20TO%20LEONIDA&descSize=20&descAlignY=62&descColor=00E5FF" width="100%" alt="METADORE — Welcome to Leonida" />
+<!-- 1. YOUR WALLPAPER: save it as assets/vice-city-banner.jpeg -->
+<img src="assets/vice-city-banner.jpeg" width="100%" alt="Vice City neon cityscape at sunset" />
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&weight=600&size=17&duration=3000&pause=1000&color=FF66A8&center=true&vCenter=true&width=850&lines=THE+CITY+NEVER+SLEEPS.;WELCOME+TO+THE+UNDERGROUND.;BUILDING+THINGS+OUTSIDE+THE+ORDINARY.;NO+RULES.+JUST+EXPERIMENTS.;NEXT+MISSION%3A+SOMETHING+IMPOSSIBLE." alt="Typing introduction" />
+<img src="assets/title.svg" width="100%" alt="METADORE — Welcome to Leonida" />
+
+<img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&weight=700&size=18&duration=3000&pause=1000&color=FF2E93&center=true&vCenter=true&width=850&lines=THE+CITY+NEVER+SLEEPS.;WELCOME+TO+THE+UNDERGROUND.;BUILDING+THINGS+OUTSIDE+THE+ORDINARY.;NO+RULES.+JUST+EXPERIMENTS.;NEXT+MISSION%3A+SOMETHING+IMPOSSIBLE." alt="Typing introduction" />
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+<img src="https://img.shields.io/badge/DEVELOP-ff2e93?style=for-the-badge&labelColor=12002b" alt="Develop" />
+<img src="https://img.shields.io/badge/EXPERIMENT-ff8a00?style=for-the-badge&labelColor=12002b" alt="Experiment" />
+<img src="https://img.shields.io/badge/DISRUPT-00e5c7?style=for-the-badge&labelColor=12002b" alt="Disrupt" />
+<img src="https://img.shields.io/badge/REPEAT-7a2cff?style=for-the-badge&labelColor=12002b" alt="Repeat" />
+
+<br/><br/>
+<img src="https://img.shields.io/badge/%F0%9F%8C%B4_LEONIDA-ff2e93?style=flat-square&labelColor=12002b" alt="Leonida" />
+<img src="https://img.shields.io/badge/%F0%9F%93%8D_VICE_CITY-ff8a00?style=flat-square&labelColor=12002b" alt="Vice City" />
+<img src="https://img.shields.io/badge/%F0%9F%93%A1_EST._2026-00e5c7?style=flat-square&labelColor=12002b" alt="Established 2026" />
+
+</div>
 
 <br/>
 
-🌴 **LEONIDA** &nbsp;·&nbsp; 📍 **VICE CITY** &nbsp;·&nbsp; 📡 **EST. 2026**
+<img src="assets/h-profile.svg" width="100%" alt="01 Character profile" />
 
-**`DEVELOP. EXPERIMENT. DISRUPT. REPEAT.`**
+<img src="assets/dossier.svg" width="100%" alt="Player dossier" />
 
-</div>
+<img src="assets/intro.svg" width="100%" alt="Welcome to Metadore" />
 
----
+<br/>
 
-## 🌆 Character Profile
+<img src="assets/h-wanted.svg" width="100%" alt="02 Wanted level" />
 
-<div align="center">
-
-**PLAYER ONE // METADORE**
-
-</div>
-
-```text
-╔══════════════════════════════════════════════════════════╗
-║                      PLAYER DOSSIER                      ║
-╠══════════════════════════════════════════════════════════╣
-║                                                          ║
-║  NAME       : METADORE                                   ║
-║  LOCATION   : LEONIDA                                    ║
-║  OCCUPATION : DEVELOPER / RESEARCHER / BUILDER           ║
-║  ALIGNMENT  : EXPERIMENTAL                               ║
-║  STATUS     : AVAILABLE FOR THE NEXT MISSION             ║
-║                                                          ║
-║  SPECIALITIES                                            ║
-║    > Artificial Intelligence                             ║
-║    > Computational Neuroscience                          ║
-║    > Creative Development                                ║
-║    > Experimental Hardware                               ║
-║    > Unconventional Software                             ║
-║                                                          ║
-║  CURRENT OBJECTIVE : BUILD SOMETHING UNEXPECTED          ║
-║                                                          ║
-╚══════════════════════════════════════════════════════════╝
-```
-
-Welcome to **METADORE**, a digital playground built on curiosity and experimentation, and on making things that probably shouldn't exist.
-
-I explore **artificial intelligence, computational neuroscience, experimental hardware, creative coding, and unconventional web experiences**. I build things, break things, investigate why they broke, and occasionally turn the results into something interesting.
-
-> *The city never sleeps. Neither does the terminal.*
-
----
-
-## 🚨 Wanted Level
+<img src="assets/wanted.svg" width="100%" alt="Wanted level: five stars" />
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/EXPERIMENTAL_ACTIVITY-★★★★★-ff4f91?style=for-the-badge" alt="Experimental activity: five stars" />
-<img src="https://img.shields.io/badge/CURIOSITY-UNLIMITED-00d9ff?style=for-the-badge" alt="Curiosity: unlimited" />
-<img src="https://img.shields.io/badge/CREATIVITY-UNRESTRICTED-9b5cff?style=for-the-badge" alt="Creativity: unrestricted" />
+<img src="https://img.shields.io/badge/EXPERIMENTAL_ACTIVITY-★★★★★-ff2e93?style=for-the-badge&labelColor=12002b" alt="Experimental activity: five stars" />
+<img src="https://img.shields.io/badge/CURIOSITY-UNLIMITED-00e5c7?style=for-the-badge&labelColor=12002b" alt="Curiosity: unlimited" />
+<img src="https://img.shields.io/badge/CREATIVITY-UNRESTRICTED-7a2cff?style=for-the-badge&labelColor=12002b" alt="Creativity: unrestricted" />
 
 </div>
 
-```text
-CURRENT WANTED LEVEL:  ★ ★ ★ ★ ★
+<br/>
 
-REASON:
-  · Building things nobody asked for.
-  · Experimenting with questionable ideas.
-  · Turning random thoughts into actual projects.
+<img src="assets/h-map.svg" width="100%" alt="03 The city map" />
 
-LAST KNOWN LOCATION:
-  Somewhere between a research lab and a terminal.
-```
+<img src="assets/map.svg" width="100%" alt="City map of Leonida with six project districts" />
 
----
+<br/>
 
-## 🗺️ The City Map
+<img src="assets/h-missions.svg" width="100%" alt="04 Active missions" />
 
-| | District | Focus | Status |
-|:-:|---|---|:-:|
-| 🧠 | **Neural Research Facility** | Connectomics, spiking networks | 🟢 Active |
-| 🤖 | **Artificial Intelligence Lab** | Unconventional AI systems | 🟢 Active |
-| 🌐 | **Digital Underground** | Web experiments | 🟢 Active |
-| ⚙️ | **Hardware Workshop** | Prototypes and interfaces | 🟢 Active |
-| 🎨 | **Creative District** | Visual and interactive design | 🟡 Exploring |
-| 🔬 | **Experimental Research** | Information theory and more | 🟢 Active |
+<table>
+<tr>
+<td width="50%" valign="top">
 
----
-
-## 🎯 Active Missions
-
-### MISSION 01 — FLY-SURFER &nbsp; ![Neural Research](https://img.shields.io/badge/CLASSIFIED-NEURAL_RESEARCH-ff4f91?style=flat-square)
+<img src="assets/mission-01.svg" width="100%" alt="Mission 01: Fly-Surfer" />
 
 **Teaching a fruit fly brain to play Subway Surfers through connectome-based neural simulation.**
 
 A computational neuroscience experiment combining connectomics, spiking neural networks, visual perception, motor decisions, and reward-based learning.
 
-- FlyWire connectome research
-- Leaky Integrate-and-Fire neural simulation
-- Visual perception pipeline
-- Neural information theory
-- Experimental reward-learning mechanisms
+- 🧬 FlyWire connectome research
+- ⚡ Leaky Integrate-and-Fire neural simulation
+- 👁️ Visual perception pipeline
+- 📡 Neural information theory
+- 🎯 Experimental reward-learning mechanisms
 
-`STATUS: 🟡 IN PROGRESS` &nbsp; **[Explore project →](https://github.com/Metadore/REPLACE-WITH-REPO-NAME)**
+<a href="https://github.com/Metadore/REPLACE-WITH-REPO-NAME"><img src="https://img.shields.io/badge/EXPLORE_PROJECT-%E2%96%B6-ff2e93?style=for-the-badge&labelColor=12002b" alt="Explore Fly-Surfer" /></a>
 
-### MISSION 02 — ENDLESS SURFER &nbsp; ![Environment Engineering](https://img.shields.io/badge/CLASS-ENVIRONMENT_ENGINEERING-00d9ff?style=flat-square)
+</td>
+<td width="50%" valign="top">
 
-An independent endless-runner game environment that serves as a controlled playground for experimentation and future AI integration.
+<img src="assets/mission-02.svg" width="100%" alt="Mission 02: Endless Surfer" />
 
-`STATUS: 🛠️ DEVELOPMENT` &nbsp; **[Explore project →](https://github.com/Metadore/REPLACE-WITH-REPO-NAME)**
+**An independent endless-runner game environment.**
 
-### MISSION 03 — ARCOS &nbsp; ![Creative Web](https://img.shields.io/badge/CLASS-CREATIVE_WEB-9b5cff?style=flat-square)
+Designed as a controlled playground for experimentation and future AI integration.
 
-An experimental web experience exploring modern frontend development, animation, and interactive visual design.
+<a href="https://github.com/Metadore/REPLACE-WITH-REPO-NAME"><img src="https://img.shields.io/badge/EXPLORE_PROJECT-%E2%96%B6-00e5c7?style=for-the-badge&labelColor=12002b" alt="Explore Endless Surfer" /></a>
 
-`STATUS: 🛠️ DEVELOPMENT` &nbsp; **[Explore project →](https://github.com/Metadore/REPLACE-WITH-REPO-NAME)**
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### MISSION 04 — THE DARK CHRONICLES &nbsp; ![Full Stack](https://img.shields.io/badge/CLASS-FULL_STACK-ff7657?style=flat-square)
+<img src="assets/mission-03.svg" width="100%" alt="Mission 03: Arcos" />
 
-An experimental full-stack project covering authentication, backend architecture, databases, and modern application development.
+**An experimental web experience.**
 
-`STATUS: 🛠️ DEVELOPMENT` &nbsp; **[Explore project →](https://github.com/Metadore/REPLACE-WITH-REPO-NAME)**
+Exploring modern frontend development, animation, and interactive visual design.
 
----
+<a href="https://github.com/Metadore/REPLACE-WITH-REPO-NAME"><img src="https://img.shields.io/badge/EXPLORE_PROJECT-%E2%96%B6-a56bff?style=for-the-badge&labelColor=12002b" alt="Explore Arcos" /></a>
 
-## 🔫 Weapons & Equipment
+</td>
+<td width="50%" valign="top">
+
+<img src="assets/mission-04.svg" width="100%" alt="Mission 04: The Dark Chronicles" />
+
+**An experimental full-stack web project.**
+
+Authentication, backend architecture, databases, and modern application development.
+
+<a href="https://github.com/Metadore/REPLACE-WITH-REPO-NAME"><img src="https://img.shields.io/badge/EXPLORE_PROJECT-%E2%96%B6-ff8a00?style=for-the-badge&labelColor=12002b" alt="Explore The Dark Chronicles" /></a>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<img src="assets/h-arsenal.svg" width="100%" alt="05 Weapons and equipment" />
 
 <div align="center">
-
-**THE DEVELOPER ARSENAL**
 
 <img src="https://skillicons.dev/icons?i=python,c,cpp,js,html,css,react,nextjs,nodejs,express,mongodb,postgres,git,github,vscode,arduino&perline=8" alt="Technology stack" />
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/AI%20%26%20ML-EXPERIMENTAL-ff4f91?style=for-the-badge" alt="AI and machine learning" />
-<img src="https://img.shields.io/badge/NEUROSCIENCE-RESEARCH-9b5cff?style=for-the-badge" alt="Neuroscience research" />
-<img src="https://img.shields.io/badge/HARDWARE-PROTOTYPING-00d9ff?style=for-the-badge" alt="Hardware prototyping" />
+<img src="https://img.shields.io/badge/AI_%26_ML-EXPERIMENTAL-ff2e93?style=for-the-badge&labelColor=12002b" alt="AI and machine learning" />
+<img src="https://img.shields.io/badge/NEUROSCIENCE-RESEARCH-7a2cff?style=for-the-badge&labelColor=12002b" alt="Neuroscience research" />
+<img src="https://img.shields.io/badge/HARDWARE-PROTOTYPING-00e5c7?style=for-the-badge&labelColor=12002b" alt="Hardware prototyping" />
 
 </div>
-
----
-
-## 📻 Vice City Radio
-
-```text
-╔══════════════════════════════════════════════════════╗
-║                     NOW PLAYING                      ║
-╠══════════════════════════════════════════════════════╣
-║                                                      ║
-║  01. SYNTHWAVE FM                                    ║
-║      Neon nights and creative coding                 ║
-║                                                      ║
-║  02. UNDERGROUND RADIO                               ║
-║      Experimental ideas and strange inventions       ║
-║                                                      ║
-║  03. NEURAL FREQUENCY                                ║
-║      AI, neuroscience and computational research     ║
-║                                                      ║
-║  04. AFTER HOURS                                     ║
-║      Late-night debugging sessions                   ║
-║                                                      ║
-║  SIGNAL: BROADCASTING FROM THE UNDERGROUND           ║
-╚══════════════════════════════════════════════════════╝
-```
-
----
-
-## 💰 Player Statistics
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=metadore&show_icons=true&hide_border=true&bg_color=090014&title_color=FF66A8&icon_color=00D9FF&text_color=E8DDF5&ring_color=FF66A8" alt="GitHub statistics" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=metadore&layout=compact&hide_border=true&bg_color=090014&title_color=FF66A8&text_color=E8DDF5" alt="Most used languages" />
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=metadore&theme=transparent&hide_border=true&background=090014&ring=FF66A8&fire=FF7657&currStreakLabel=00D9FF&sideLabels=E8DDF5&dates=9B8BAA" width="75%" alt="GitHub contribution streak" />
+<img src="assets/h-radio.svg" width="100%" alt="06 Vice City Radio" />
+
+<img src="assets/radio.svg" width="100%" alt="Vice City Radio stations" />
+
+<br/>
+
+<img src="assets/h-stats.svg" width="100%" alt="07 Player statistics" />
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=metadore&show_icons=true&hide_border=true&bg_color=12002B&title_color=FF2E93&icon_color=00E5C7&text_color=FFE8F5&ring_color=FF8A00" alt="GitHub statistics" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=metadore&layout=compact&hide_border=true&bg_color=12002B&title_color=FF2E93&text_color=FFE8F5" alt="Most used languages" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=metadore&theme=transparent&hide_border=true&background=12002B&ring=FF2E93&fire=FF8A00&currStreakLabel=00E5C7&currStreakNum=FFE8F5&sideLabels=FF2E93&sideNums=FFE8F5&dates=B79AD1" width="75%" alt="GitHub contribution streak" />
 
 </div>
 
----
+<br/>
 
-## 🐍 City Activity
+<img src="assets/h-activity.svg" width="100%" alt="08 City activity" />
 
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/Metadore/Metadore/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution snake animation" />
 
-*Every commit leaves a footprint in the city.*
+<sub><b>EVERY COMMIT LEAVES A FOOTPRINT IN THE CITY.</b></sub>
 
 </div>
 
----
+<br/>
 
-## 🏙️ Upcoming Missions
+<img src="assets/h-upcoming.svg" width="100%" alt="09 Upcoming missions" />
 
-- [ ] Develop unconventional AI systems
-- [ ] Explore computational neuroscience
-- [ ] Experiment with human-computer interaction
-- [ ] Build creative and immersive web experiences
-- [ ] Develop experimental hardware interfaces
-- [ ] Investigate unusual applications of information theory
-- [ ] Turn ambitious ideas into working prototypes
+<img src="assets/board.svg" width="100%" alt="Mission board: AI systems, neuroscience, human-computer interaction, creative web, hardware, information theory, prototypes" />
 
-**MISSION BOARD: NEVER EMPTY.**
+<br/>
 
----
+<img src="assets/footer.svg" width="100%" alt="The city is yours. Metadore // Leonida." />
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:090014,35:5B1C70,70:DA397C,100:FF7657&height=110&section=footer&text=THE%20CITY%20IS%20YOURS.&fontSize=27&fontColor=FFFFFF&animation=fadeIn" width="100%" alt="The city is yours" />
-
-**METADORE // LEONIDA**
-
-*Code the unexpected. Chase the impossible.*
-
 🌴 &nbsp; 🌆 &nbsp; 💻 &nbsp; 🏎️ &nbsp; 🌴
-
 </div>
