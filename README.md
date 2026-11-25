@@ -1,358 +1,266 @@
-<div align="center">
+\<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,35:1a0033,70:4d0000,100:000000&height=230&section=header&text=METADORE&fontSize=72&fontColor=66ff33&animation=fadeIn&fontAlignY=38&desc=INFEST%20%E2%80%A2%20MUTATE%20%E2%80%A2%20DRAIN%20%E2%80%A2%20HAUNT&descAlignY=61&descSize=18" width="100%"/>
+\<img src="[https://capsule-render.vercel.app/api?type=waving&color=0:090014,25:3D145E,55\:BA286D,80\:FF7657,100:090014&height=250&section=header&text=METADORE&fontSize=85&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=WELCOME%20TO%20LEONIDA&descSize=20&descAlignY=62&descColor=00E5FF](https://capsule-render.vercel.app/api?type=waving\&color=0:090014,25:3D145E,55\:BA286D,80\:FF7657,100:090014\&height=250\&section=header\&text=METADORE\&fontSize=85\&fontColor=FFFFFF\&animation=fadeIn\&fontAlignY=38\&desc=WELCOME%20TO%20LEONIDA\&descSize=20\&descAlignY=62\&descColor=00E5FF)" width="100%"/>
 
-<br>
+\<br>
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&duration=3000&pause=900&color=66FF33&center=true&vCenter=true&width=800&lines=%5B+SLIME+CORE+INFESTED+%5D;WARNING%3A+Eldritch+Spores+Released!;Spider-Sense+%2B+Toxic+Solder+%2B+Void+Darkness;Sanity+is+a+hallucination.;Awakening+the+Metadore+Abomination..."/>
+\<img src="[https://readme-typing-svg.herokuapp.com/?font=Orbitron&weight=600&size=17&duration=3000&pause=1000&color=FF66A8&center=true&vCenter=true&width=850&lines=THE+CITY+NEVER+SLEEPS.;WELCOME+TO+THE+UNDERGROUND.;BUILDING+THINGS+OUTSIDE+THE+ORDINARY.;NO+RULES.+JUST+EXPERIMENTS.;NEXT+MISSION%3A+SOMETHING+IMPOSSIBLE](https://readme-typing-svg.herokuapp.com/?font=Orbitron\&weight=600\&size=17\&duration=3000\&pause=1000\&color=FF66A8\&center=true\&vCenter=true\&width=850\&lines=THE+CITY+NEVER+SLEEPS.;WELCOME+TO+THE+UNDERGROUND.;BUILDING+THINGS+OUTSIDE+THE+ORDINARY.;NO+RULES.+JUST+EXPERIMENTS.;NEXT+MISSION%3A+SOMETHING+IMPOSSIBLE)."/>
 
-<br><br>
+\<br>\<br>
 
-<img src="https://media.giphy.com/media/l3vR85PnGsBwu1PFK/giphy.gif" width="180"/>
+`🌴 LEONIDA`   `📍 VICE CITY`   `📡 EST. 2026`
 
-<br><br>
+\<br>
 
-### `A SLIMY WEBBED NETWORK OF VOID-EXPERIMENTS, INFESTATIONS & UNANNOUNCED MUTATIONS`
+**DEVELOP. EXPERIMENT. DISRUPT. REPEAT.**
 
-</div>
+\</div>
 
 ---
 
-# 🕷️ METADORE // THE TOXIC LAIR
+\<div align="center">
+
+# 🌆 CHARACTER PROFILE
+
+`PLAYER ONE // METADORE`
+
+\</div>
 
 ```text
-╔══════════════════════════════════════════════════════════════╗
-║                    METADORE BIOCORE v6.6.6                   ║
-╠══════════════════════════════════════════════════════════════╣
-║                                                              ║
-║  CONTAINMENT    : INFESTED & BREACHED                        ║
-║  NEURAL SYNC    : HYPER-ACTIVE SPIDER-SENSE                  ║
-║  PRIMARY TASK   : DISSECT REALITY • WEAVE VOID PROTOCOLS     ║
-║  ENTROPY LEVEL  : OVER 9000                                  ║
-║  ORGANISM TYPE  : ARACHNID METAMORPH                         ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════╗
+║                  PLAYER DOSSIER                          ║
+╠══════════════════════════════════════════════════════════╣
+║                                                          ║
+║  NAME       : METADORE                                   ║
+║  LOCATION   : LEONIDA                                    ║
+║  OCCUPATION : DEVELOPER / RESEARCHER / BUILDER           ║
+║  ALIGNMENT  : EXPERIMENTAL                               ║
+║  STATUS     : AVAILABLE FOR THE NEXT MISSION             ║
+║                                                          ║
+║  SPECIALITIES                                             ║
+║    > Artificial Intelligence                             ║
+║    > Computational Neuroscience                          ║
+║    > Creative Development                                ║
+║    > Experimental Hardware                               ║
+║    > Unconventional Software                             ║
+║                                                          ║
+║  CURRENT OBJECTIVE : BUILD SOMETHING UNEXPECTED          ║
+║                                                          ║
+╚══════════════════════════════════════════════════════════╝
 ```
 
-Welcome to **Metadore** — a crawling, sticky-webbed digital biome in constant mutation.
+Welcome to **METADORE**.
 
-This is an uncalibrated proving ground where logic bends, venom-dipped hardware bleeds into software, and disturbing **“what if”** thoughts erupt into sentient constructs.
+A digital playground inspired by curiosity, experimentation and the desire to build things that probably shouldn't exist.
 
-No safety rails. No escape route.
+From artificial intelligence and computational neuroscience to experimental hardware, creative coding and unconventional web experiences.
 
-**It crawls wherever the infestation spreads.**
+I build things, break things, investigate why they broke, and occasionally turn the results into something interesting.
 
-> **“A digital parasite that spins code-webs and devours complexity.”**
+**The city never sleeps. Neither does the terminal.**
 
 ---
 
-# 🧬 ANOMALOUS SPECIMEN DOSSIER
+# 🚨 WANTED LEVEL
 
-| MUTATION ANGLE        | THREAT LEVEL      |
-| --------------------- | ----------------- |
-| 🕳️ Void Curiosity    | `██████████ 100%`  |
-| 🧪 Mad Science        | `█████████░ 90%`  |
-| ⚙️ Cyber-Mechanical   | `████████░░ 80%`  |
-| 🧠 Neural Aesthetic   | `█████████░ 90%`  |
-| 👁️ Machine Telepathy | `███████░░░ 70%`   |
-| ☣️ Unorthodox Logic   | `███████░░░ 70%`  |
+\<div align="center">
+
+\<img src="[https://img.shields.io/badge/EXPERIMENTAL_ACTIVITY-★★★★★-ff4f91?style=for-the-badge](https://img.shields.io/badge/EXPERIMENTAL_ACTIVITY-★★★★★-ff4f91?style=for-the-badge)"/>
+\<img src="[https://img.shields.io/badge/CURIOSITY-UNLIMITED-00d9ff?style=for-the-badge](https://img.shields.io/badge/CURIOSITY-UNLIMITED-00d9ff?style=for-the-badge)"/>
+\<img src="[https://img.shields.io/badge/CREATIVITY-UNRESTRICTED-9b5cff?style=for-the-badge](https://img.shields.io/badge/CREATIVITY-UNRESTRICTED-9b5cff?style=for-the-badge)"/>
+
+\</div>
 
 ```text
-SPECIES      : TECHNO-ARACHNID / SLIME-ARCHITECT
-TACTIC       : TRAP FIRST, WEAVE CODE WHILE IT WRIGGLES
-PERK         : ACCIDENTALLY SUMMONING WEIRD BUGS AT 3 AM
-EVOLUTION XP : ███████░░░░░░░ [SPINNING WEBS...]
-```
+CURRENT WANTED LEVEL
 
----
+  ★ ★ ★ ★ ★
 
-# 🕸️ THE METADORE INFESTATION TREE
+REASON:
+  Building things nobody asked for.
+  Experimenting with questionable ideas.
+  Turning random thoughts into actual projects.
 
-<div align="center">
-
-<img src="./metadore-skill-tree.svg"
-  width="100%"
-  alt="Metadore Infestation Skill Tree"/>
-
-</div>
-
-> **Every repo is an egg sac.**
-> **Every commit is a venomous rewrite.**
-> **Every system crash feeds the spider nest.**
-
----
-
-# 🕷️ HUNTING GROUNDS & VICTIM LOG
-
-```text
-╔════════════════════════════════════════════════════════════╗
-║                   TRAPPED IN THE SILK                      ║
-╠════════════════════════════════════════════════════════════╣
-║                                                            ║
-║ DISSOLVED IN ACID (COMPLETED)                              ║
-║    ├── Silicon Micro-Hacks (Arduino)                       ║
-║    ├── Visual Hallucinations (Creative Coding)             ║
-║    └── Unsanctioned Developer Toys                         ║
-║                                                            ║
-║ ENTANGLED IN WEBS (ACTIVE)                                 ║
-║    ├── Neural Net Mutators (AI/ML)                         ║
-║    ├── Kinetic Gesture Puppetry                            ║
-║    ├── Computational Chaos Engines                         ║
-║    └── Experimental Web Abominations                       ║
-║                                                            ║
-║ STALKING FROM SHADOWS (EXPLORING)                          ║
-║    ├── Hive-Mind Artifacts (Open Source)                   ║
-║    ├── Reality Amplifiers (Dev Tools)                      ║
-║    └── Cybernetic Cyborg Interfaces (HCI)                  ║
-║                                                            ║
-║ LOCKED IN THE DUNGEON                                      ║
-║    └── [SEALED BY METADORE ELDERS]                         ║
-║                                                            ║
-╚════════════════════════════════════════════════════════════╝
+LAST KNOWN LOCATION:
+  Somewhere between a research lab and a terminal.
 ```
 
 ---
 
-# ☣️ THE TOXIC OUBLIETTE
+# 🗺️ THE CITY MAP // PROJECT DIRECTORY
 
-| SECTOR    | ANOMALY TYPE                             |
-| --------- | ---------------------------------------- |
-| 💻 CODE   | Dark Sorcery & Byte Manipulation         |
-| 🤖 AI     | Synthetic Intelligence & Ghostly Mimicry |
-| 🧪 LAB    | Weird Physics & Slime Alchemy            |
-| 🎨 ART    | High-Octane Cyber Nightmares             |
-| 🌐 WEB    | Sticky Web Realm Structures              |
-| ⚙️ TOOL   | Reality-Altering Developer Weapons       |
-| ☢️ HAZARD | Highly Volatile Forbidden Rituals        |
+\<div align="center">
+
+| LOCATION | DESCRIPTION                 |   STATUS  |
+| :------: | --------------------------- | :-------: |
+|    🧠    | Neural Research Facility    |   ACTIVE  |
+|    🤖    | Artificial Intelligence Lab |   ACTIVE  |
+|    🌐    | Digital Underground         |   ACTIVE  |
+|    ⚙️    | Hardware Workshop           |   ACTIVE  |
+|    🎨    | Creative District           | EXPLORING |
+|    🔬    | Experimental Research       |   ACTIVE  |
+
+\</div>
 
 ---
 
-# 🗡️ ARSENAL OF THE VOID
+# 🎯 ACTIVE MISSIONS
+
+### `MISSION 01` — FLY-SURFER
+
+\<img src="[https://img.shields.io/badge/CLASSIFIED-NEURAL_RESEARCH-ff4f91?style=flat-square](https://img.shields.io/badge/CLASSIFIED-NEURAL_RESEARCH-ff4f91?style=flat-square)"/>
+
+**Teaching a Fruit Fly Brain to Play Subway Surfers Through Connectome-Based Neural Simulation.**
+
+A computational neuroscience experiment combining connectomics, spiking neural networks, visual perception, motor decisions and reward-based learning.
+
+- FlyWire connectome research.
+- Leaky Integrate-and-Fire neural simulation.
+- Visual perception pipeline.
+- Neural information theory.
+- Experimental reward-learning mechanisms.
+
+`MISSION STATUS: IN PROGRESS`
+
+[EXPLORE PROJECT](https://github.com/metadore/FLY-SURFER)
+
+---
+
+### `MISSION 02` — ENDLESS SURFER
+
+\<img src="[https://img.shields.io/badge/CLASS-ENVIRONMENT_ENGINEERING-00d9ff?style=flat-square](https://img.shields.io/badge/CLASS-ENVIRONMENT_ENGINEERING-00d9ff?style=flat-square)"/>
+
+An independent endless-runner game environment designed to provide a controlled playground for experimentation and AI integration.
+
+`MISSION STATUS: DEVELOPMENT`
+
+[EXPLORE PROJECT](https://github.com/metadore/endless-surfer)
+
+---
+
+### `MISSION 03` — ARCOS
+
+\<img src="[https://img.shields.io/badge/CLASS-CREATIVE_WEB-9b5cff?style=flat-square](https://img.shields.io/badge/CLASS-CREATIVE_WEB-9b5cff?style=flat-square)"/>
+
+An experimental web experience exploring modern frontend development, animation and interactive visual design.
+
+`MISSION STATUS: DEVELOPMENT`
+
+[EXPLORE PROJECT](https://github.com/metadore/arcoistry)
+
+---
+
+### `MISSION 04` — THE DARK CHRONICLES
+
+\<img src="[https://img.shields.io/badge/CLASS-FULL_STACK-ff7657?style=flat-square](https://img.shields.io/badge/CLASS-FULL_STACK-ff7657?style=flat-square)"/>
+
+An experimental full-stack web project involving authentication, backend architecture, databases and modern application development.
+
+`MISSION STATUS: DEVELOPMENT`
+
+[EXPLORE PROJECT](https://github.com/metadore/wednesdays-dark-chronicles)
+
+---
+
+# 🔫 WEAPONS & EQUIPMENT
+
+\<div align="center">
+
+### THE DEVELOPER ARSENAL
+
+\<img src="[https://skillicons.dev/icons?i=python,c,cpp,js,html,css,react,nextjs,nodejs,express,mongodb,postgres,git,github,vscode,arduino&perline=8](https://skillicons.dev/icons?i=python,c,cpp,js,html,css,react,nextjs,nodejs,express,mongodb,postgres,git,github,vscode,arduino\&perline=8)"/>
+
+\<br>\<br>
+
+\<img src="[https://img.shields.io/badge/AI%20%26%20ML-EXPERIMENTAL-ff4f91?style=for-the-badge](https://img.shields.io/badge/AI%20%26%20ML-EXPERIMENTAL-ff4f91?style=for-the-badge)"/>
+\<img src="[https://img.shields.io/badge/NEUROSCIENCE-RESEARCH-9b5cff?style=for-the-badge](https://img.shields.io/badge/NEUROSCIENCE-RESEARCH-9b5cff?style=for-the-badge)"/>
+\<img src="[https://img.shields.io/badge/HARDWARE-PROTOTYPING-00d9ff?style=for-the-badge](https://img.shields.io/badge/HARDWARE-PROTOTYPING-00d9ff?style=for-the-badge)"/>
+
+\</div>
+
+---
+
+# 📻 VICE CITY RADIO
 
 ```text
-╔══════════════════════════════════════════════╗
-║               EQUIPPED ARTIFACTS             ║
-╠══════════════════════════════════════════════╣
-║                                              ║
-║ VENOMOUS DIALECTS                            ║
-║    Python • C • C++                          ║
-║                                              ║
-║ WEB WEAVING                                  ║
-║    HTML • CSS • JavaScript                   ║
-║                                              ║
-║ SYNAPTIC PARASITISM                          ║
-║    Prototyping Artificial Consciousness...   ║
-║                                              ║
-║ SILICON TORTURE                              ║
-║    Arduino • Micro-Solder • Cyber-Hardware   ║
-║                                              ║
-║ BATTLE RIG                                   ║
-║    Git • GitHub • VS Code Terminal           ║
-║                                              ║
-║ ALCHEMICAL COMPUTING                         ║
-║    Algorithmic Chaos & Simulating Horror     ║
-║                                              ║
-╚══════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════╗
+║                 NOW PLAYING                          ║
+╠══════════════════════════════════════════════════════╣
+║                                                      ║
+║  01. SYNTHWAVE FM                                     ║
+║      Neon nights and creative coding                 ║
+║                                                      ║
+║  02. UNDERGROUND RADIO                                ║
+║      Experimental ideas and strange inventions      ║
+║                                                      ║
+║  03. NEURAL FREQUENCY                                 ║
+║      AI, neuroscience and computational research     ║
+║                                                      ║
+║  04. AFTER HOURS                                     ║
+║      Late-night debugging sessions                   ║
+║                                                      ║
+║  SIGNAL: BROADCASTING FROM THE UNDERGROUND           ║
+╚══════════════════════════════════════════════════════╝
 ```
 
 ---
 
-# 🧠 BRAIN CONTAINMENT VAT
+# 💰 PLAYER STATISTICS
 
-<div align="center">
+\<div align="center">
 
-<img src="./metadore-terminal.svg"
-  width="100%"
-  alt="Metadore Neural Containment Terminal"/>
+\<img height="165" src="[https://github-readme-stats.vercel.app/api?username=metadore&show_icons=true&hide_border=true&bg_color=090014&title_color=FF66A8&icon_color=00D9FF&text_color=E8DDF5&ring_color=FF66A8](https://github-readme-stats.vercel.app/api?username=metadore\&show_icons=true\&hide_border=true\&bg_color=090014\&title_color=FF66A8\&icon_color=00D9FF\&text_color=E8DDF5\&ring_color=FF66A8)"/>
 
-</div>
+\<img height="165" src="[https://github-readme-stats.vercel.app/api/top-langs/?username=metadore&layout=compact&hide_border=true&bg_color=090014&title_color=FF66A8&text_color=E8DDF5](https://github-readme-stats.vercel.app/api/top-langs/?username=metadore\&layout=compact\&hide_border=true\&bg_color=090014\&title_color=FF66A8\&text_color=E8DDF5)"/>
+
+\<br>
+
+\<img src="[https://streak-stats.demolab.com?user=metadore&theme=transparent&hide_border=true&background=090014&ring=FF66A8&fire=FF7657&currStreakLabel=00D9FF&sideLabels=E8DDF5&dates=9B8BAA](https://streak-stats.demolab.com?user=metadore\&theme=transparent\&hide_border=true\&background=090014\&ring=FF66A8\&fire=FF7657\&currStreakLabel=00D9FF\&sideLabels=E8DDF5\&dates=9B8BAA)" width="75%"/>
+
+\</div>
+
+---
+
+# 🐍 CITY ACTIVITY // CONTRIBUTION MAP
+
+\<div align="center">
+
+\<img src="[https://github.com/Metadore/Metadore/blob/output/github-contribution-grid-snake.svg](https://github.com/Metadore/Metadore/blob/output/github-contribution-grid-snake.svg)" width="100%" alt="Contribution snake"/>
+
+`EVERY COMMIT LEAVES A FOOTPRINT IN THE CITY.`
+
+\</div>
+
+---
+
+# 🏙️ UPCOMING MISSIONS
 
 ```text
-╔══════════════════════════════════════════════╗
-║             NEURAL CONTAINMENT               ║
-╠══════════════════════════════════════════════╣
-║                                              ║
-║ STATUS : CRITICAL                            ║
-║                                              ║
-║ CURIOSITY LEVEL                              ║
-║ ██████████████████████████████ 100%          ║
-║                                              ║
-║ SANITY BUFFER                                ║
-║ ███░░░░░░░░░░░░░░░░░░░░░░░░░  12%            ║
-║                                              ║
-║ VOID SIGNAL                                  ║
-║ ██████████████████████████████ ???%          ║
-║                                              ║
-║ CONTAINMENT : FAILING                        ║
-║                                              ║
-╚══════════════════════════════════════════════╝
+[01] Develop unconventional AI systems.
+[02] Explore computational neuroscience.
+[03] Experiment with human-computer interaction.
+[04] Build creative and immersive web experiences.
+[05] Develop experimental hardware interfaces.
+[06] Investigate unusual applications of information theory.
+[07] Turn ambitious ideas into working prototypes.
+
+MISSION BOARD: NEVER EMPTY.
 ```
 
 ---
 
-# 🏆 TROPHIES & CURSES
+# 🌅 END OF TRANSMISSION
 
-<div align="center">
+\<div align="center">
 
-<img src="./metadore-achievements.svg"
-  width="100%"
-  alt="Metadore Achievements"/>
+\<img src="[https://capsule-render.vercel.app/api?type=rect&color=0:090014,35:5B1C70,70\:DA397C,100\:FF7657&height=110&section=footer&text=THE%20CITY%20IS%20YOURS.&fontSize=27&fontColor=FFFFFF&animation=fadeIn](https://capsule-render.vercel.app/api?type=rect\&color=0:090014,35:5B1C70,70\:DA397C,100\:FF7657\&height=110\&section=footer\&text=THE%20CITY%20IS%20YOURS.\&fontSize=27\&fontColor=FFFFFF\&animation=fadeIn)" width="100%"/>
 
-</div>
+\<br>
 
-```text
-╔══════════════════════════════════════════════╗
-║              TROPHY ARCHIVE                  ║
-╠══════════════════════════════════════════════╣
-║                                              ║
-║ 🕷️ WEB WEAVER                               ║
-║    Created something that should not exist.  ║
-║                                              ║
-║ 🧪 MAD SCIENTIST                            ║
-║    Experimented before asking why.           ║
-║                                              ║
-║ 🤖 SYNTHETIC MIND                           ║
-║    Taught machines something strange.        ║
-║                                              ║
-║ ⚙️ SYSTEM BREAKER                           ║
-║    Found a bug. Broke it. Fixed it.          ║
-║                                              ║
-║ 🧠 NEURAL MUTATION                          ║
-║    Learned something completely unexpected.  ║
-║                                              ║
-╚══════════════════════════════════════════════╝
-```
+**METADORE // LEONIDA**
 
----
+`CODE THE UNEXPECTED. CHASE THE IMPOSSIBLE.`
 
-# 🧬 SLIME-LEVELS & VITAL SIGNS
+🌴   🌆   💻   🏎️   🌴
 
-| SYSTEM                      | STATUS             |
-| --------------------------- | -----------------  |
-| 🧠 Neural Activity         | `█████████░ 90%`  |
-| 🕸️ Web Density             | `██████████ 100%`  |
-| 🧪 Experimental Instability | `████████░░ 80%`  |
-| 🤖 Machine Consciousness    | `███████░░░ 70%`  |
-| ☣️ Containment Integrity    | `███░░░░░░░ 30%`  |
-| 🌀 Reality Stability        | `████░░░░░░ 40%`  |
-
----
-
-# 🕸️ THE CRAWLING SPIDER GRID
-
-<div align="center">
-
-<img src="https://github.com/Metadore/Metadore/blob/output/github-contribution-grid-snake.svg"
-  width="100%"
-  alt="GitHub contribution snake animation"/>
-
-<br>
-
-```text
-GREEN SQUARES = SPIDER EGGS HATCHING.
-
-EVERY COMMIT = ANOTHER WEBBED THREAD.
-
-THE CREATURE DEVOURS ALL SANITY.
-```
-
-</div>
-
----
-
-# 🧪 HORRIFYING EXPERIMENTS IN PROGRESS
-
-```text
-[01]  Compiling forbidden programming constructs
-[02]  Feeding synthetic minds with chaotic datasets
-[03]  Forging dev tools that feel illegal to use
-[04]  Simulating bizarre physical models
-[05]  Designing interfaces that melt minds
-[06]  Infiltrating open-source realms
-[07]  Dissolving boundaries between human skin and screens
-```
-
----
-
-# 🧬 FUTURE INFESTATIONS
-
-```text
-                         VOID
-                        /│\
-                       / │ \
-                      /  │  \
-                     /   │   \
-                   WEB  SLIME  SILK
-                   /     │      \
-            CYBORG-AI  ALCHEMY  HYPER-ART
-               │         │         │
-              ???       ???       ???
-```
-
-* 🧠 Self-modifying AI parasites
-* 🧪 Sci-Fi curses brought to reality
-* 🕸️ Infiltrating foreign codebases
-* 🌌 Cyberpunk visual interfaces
-* 🤖 Mind-machine interfaces
-* ☣️ Direct manifestations of **“what if we break this entirely?”**
-
----
-
-# 🔐 REDACTED VAULT
-
-```text
-> OVERRIDE METADORE_CORE
-
-[✓] QUANTUM ENCRYPTION SHATTERED
-
-> SCAN --NEST
-
-ROOT
- ├── bio_hazards
- ├── experimental_weapons
- ├── void_research
- ├── neural_art
- └── absolute_chaos
-
-> READ --absolute_chaos
-
-████████████████████████████ 100%
-
-WARNING: RETINA DISSOLVED.
-
-You are not biologically prepared for these webs yet.
-```
-
----
-
-# 🕷️ THE DARK MANIFESTO
-
-### Synthesize over studying.
-
-### Mutate over replicating.
-
-### Experiment without permission.
-
-### Evolution > Perfection.
-
-**The spider does not care if the web looks messy.**
-
-**It only demands that it traps everything.**
-
----
-
-<div align="center">
-
-`METADORE // END OF VOID TRANSMISSION`
-
-<br><br>
-
-🕸️ **Traverse the web.**
-🧪 **Infect yourself with curiosity.**
-🧬 **Observe the mutation.**
-
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,35:4d0000,70:1a0033,100:000000&height=120&section=footer" width="100%"/>
-
-</div>
+\</div>
