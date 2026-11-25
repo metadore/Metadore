@@ -152,7 +152,7 @@ Authentication, backend architecture, databases, and modern application developm
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Metadore/Metadore/output/github-contribution-snake.yml" width="100%" alt="Contribution car animation" />
+<img src="https://raw.githubusercontent.com/Metadore/Metadore/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution snake animation" />
 
 <sub><b>EVERY COMMIT LEAVES A FOOTPRINT IN THE CITY.</b></sub>
 
