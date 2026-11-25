@@ -1,13 +1,12 @@
 <div align="center">
 
-<!-- 1. YOUR WALLPAPER: save it as assets/vice-city-banner.jpeg -->
-<img src="assets/vice-city-banner.jpeg" width="100%" alt="Vice City neon cityscape at sunset" />
+<img src="GTA%206%20Vice%20City%204K%20Wallpaper%20%E2%80%93%20Neon%20Cityscape%20Sunset%20_%20Gaming%20Wallpaper.jpeg" width="100%" alt="Vice City neon cityscape at sunset" />
 
-<img src="assets/title.svg" width="100%" alt="METADORE — Welcome to Leonida" />
+<img src="title.svg" width="100%" alt="METADORE — Welcome to Leonida" />
 
 <img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&weight=700&size=18&duration=3000&pause=1000&color=FF2E93&center=true&vCenter=true&width=850&lines=THE+CITY+NEVER+SLEEPS.;WELCOME+TO+THE+UNDERGROUND.;BUILDING+THINGS+OUTSIDE+THE+ORDINARY.;NO+RULES.+JUST+EXPERIMENTS.;NEXT+MISSION%3A+SOMETHING+IMPOSSIBLE." alt="Typing introduction" />
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="divider.svg" width="100%" alt="" />
 
 <img src="https://img.shields.io/badge/DEVELOP-ff2e93?style=for-the-badge&labelColor=12002b" alt="Develop" />
 <img src="https://img.shields.io/badge/EXPERIMENT-ff8a00?style=for-the-badge&labelColor=12002b" alt="Experiment" />
@@ -23,17 +22,17 @@
 
 <br/>
 
-<img src="assets/h-profile.svg" width="100%" alt="01 Character profile" />
+<img src="h-profile.svg" width="100%" alt="01 Character profile" />
 
-<img src="assets/dossier.svg" width="100%" alt="Player dossier" />
+<img src="dossier.svg" width="100%" alt="Player dossier" />
 
-<img src="assets/intro.svg" width="100%" alt="Welcome to Metadore" />
+<img src="intro.svg" width="100%" alt="Welcome to Metadore" />
 
 <br/>
 
-<img src="assets/h-wanted.svg" width="100%" alt="02 Wanted level" />
+<img src="h-wanted.svg" width="100%" alt="02 Wanted level" />
 
-<img src="assets/wanted.svg" width="100%" alt="Wanted level: five stars" />
+<img src="wanted.svg" width="100%" alt="Wanted level: five stars" />
 
 <div align="center">
 
@@ -45,19 +44,19 @@
 
 <br/>
 
-<img src="assets/h-map.svg" width="100%" alt="03 The city map" />
+<img src="h-map.svg" width="100%" alt="03 The city map" />
 
-<img src="assets/map.svg" width="100%" alt="City map of Leonida with six project districts" />
+<img src="map.svg" width="100%" alt="City map of Leonida with six project districts" />
 
 <br/>
 
-<img src="assets/h-missions.svg" width="100%" alt="04 Active missions" />
+<img src="h-missions.svg" width="100%" alt="04 Active missions" />
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-<img src="assets/mission-01.svg" width="100%" alt="Mission 01: Fly-Surfer" />
+<img src="mission-01.svg" width="100%" alt="Mission 01: Fly-Surfer" />
 
 **Teaching a fruit fly brain to play Subway Surfers through connectome-based neural simulation.**
 
@@ -74,7 +73,7 @@ A computational neuroscience experiment combining connectomics, spiking neural n
 </td>
 <td width="50%" valign="top">
 
-<img src="assets/mission-02.svg" width="100%" alt="Mission 02: Endless Surfer" />
+<img src="mission-02.svg" width="100%" alt="Mission 02: Endless Surfer" />
 
 **An independent endless-runner game environment.**
 
@@ -87,7 +86,7 @@ Designed as a controlled playground for experimentation and future AI integratio
 <tr>
 <td width="50%" valign="top">
 
-<img src="assets/mission-03.svg" width="100%" alt="Mission 03: Arcos" />
+<img src="mission-03.svg" width="100%" alt="Mission 03: Arcos" />
 
 **An experimental web experience.**
 
@@ -98,7 +97,7 @@ Exploring modern frontend development, animation, and interactive visual design.
 </td>
 <td width="50%" valign="top">
 
-<img src="assets/mission-04.svg" width="100%" alt="Mission 04: The Dark Chronicles" />
+<img src="mission-04.svg" width="100%" alt="Mission 04: The Dark Chronicles" />
 
 **An experimental full-stack web project.**
 
@@ -112,7 +111,7 @@ Authentication, backend architecture, databases, and modern application developm
 
 <br/>
 
-<img src="assets/h-arsenal.svg" width="100%" alt="05 Weapons and equipment" />
+<img src="h-arsenal.svg" width="100%" alt="05 Weapons and equipment" />
 
 <div align="center">
 
@@ -128,13 +127,13 @@ Authentication, backend architecture, databases, and modern application developm
 
 <br/>
 
-<img src="assets/h-radio.svg" width="100%" alt="06 Vice City Radio" />
+<img src="h-radio.svg" width="100%" alt="06 Vice City Radio" />
 
-<img src="assets/radio.svg" width="100%" alt="Vice City Radio stations" />
+<img src="radio.svg" width="100%" alt="Vice City Radio stations" />
 
 <br/>
 
-<img src="assets/h-stats.svg" width="100%" alt="07 Player statistics" />
+<img src="h-stats.svg" width="100%" alt="07 Player statistics" />
 
 <div align="center">
 
@@ -149,7 +148,7 @@ Authentication, backend architecture, databases, and modern application developm
 
 <br/>
 
-<img src="assets/h-activity.svg" width="100%" alt="08 City activity" />
+<img src="h-activity.svg" width="100%" alt="08 City activity" />
 
 <div align="center">
 
@@ -161,13 +160,13 @@ Authentication, backend architecture, databases, and modern application developm
 
 <br/>
 
-<img src="assets/h-upcoming.svg" width="100%" alt="09 Upcoming missions" />
+<img src="h-upcoming.svg" width="100%" alt="09 Upcoming missions" />
 
-<img src="assets/board.svg" width="100%" alt="Mission board: AI systems, neuroscience, human-computer interaction, creative web, hardware, information theory, prototypes" />
+<img src="board.svg" width="100%" alt="Mission board: AI systems, neuroscience, human-computer interaction, creative web, hardware, information theory, prototypes" />
 
 <br/>
 
-<img src="assets/footer.svg" width="100%" alt="The city is yours. Metadore // Leonida." />
+<img src="footer.svg" width="100%" alt="The city is yours. Metadore // Leonida." />
 
 <div align="center">
 🌴 &nbsp; 🌆 &nbsp; 💻 &nbsp; 🏎️ &nbsp; 🌴
