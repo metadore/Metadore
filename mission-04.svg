@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 210" width="580" height="210" role="img" aria-label="Mission 04: THE DARK CHRONICLES"><defs><filter id="gl" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="gl2" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12002b"/><stop offset="1" stop-color="#2d0b52"/></linearGradient>
+<linearGradient id="ac" x1="0" x2="1"><stop offset="0" stop-color="#ff8a00"/><stop offset="1" stop-color="#ffc93c"/></linearGradient>
+<clipPath id="bar"><rect x="30" y="162" width="440" height="12" rx="3"/></clipPath></defs>
+<rect width="580" height="210" rx="12" fill="url(#bg)" stroke="#ff8a00" stroke-width="2"/>
+<rect width="12" height="210" rx="4" fill="url(#ac)"/>
+<text x="34" y="40" font-family="'Courier New', Consolas, Menlo, monospace" font-size="14" font-weight="bold" letter-spacing="4" fill="#ff8a00">MISSION 04</text>
+<rect x="34" y="52" width="106.0" height="24" rx="12" fill="none" stroke="#ffc93c" stroke-width="1.5"/>
+<text x="46" y="69" font-family="'Courier New', Consolas, Menlo, monospace" font-size="12" font-weight="bold" letter-spacing="2" fill="#ffc93c">FULL STACK</text>
+<text x="34" y="128" font-family="Impact, 'Arial Black', 'Helvetica Neue', Arial, sans-serif" font-style="italic" font-size="42" letter-spacing="2" fill="#fff" filter="url(#gl)">THE DARK CHRONICLES</text>
+<text x="30" y="154" font-family="'Courier New', Consolas, Menlo, monospace" font-size="12" font-weight="bold" letter-spacing="3" fill="#ffc93c">STATUS ▸ DEVELOPMENT</text>
+<rect x="30" y="162" width="440" height="12" rx="3" fill="#000" opacity=".5"/>
+<g clip-path="url(#bar)"><rect x="-140" y="162" width="140" height="12" rx="3" fill="url(#ac)" filter="url(#gl)"><animate attributeName="x" values="-140;470;-140" dur="3.4s" repeatCount="indefinite"/></rect></g>
+<g transform="translate(528 52)"><circle r="14" fill="none" stroke="#ffc93c" stroke-width="2"><animate attributeName="r" values="14;26;14" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/></circle><circle r="13" fill="#ffc93c" filter="url(#gl)"/><text y="6" text-anchor="middle" font-family="Impact, 'Arial Black', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#12002b">4</text></g></svg>
