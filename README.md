@@ -68,7 +68,7 @@ A computational neuroscience experiment combining connectomics, spiking neural n
 - 📡 Neural information theory
 - 🎯 Experimental reward-learning mechanisms
 
-<a href="https://github.com/Metadore/REPLACE-WITH-REPO-NAME"><img src="https://img.shields.io/badge/EXPLORE_PROJECT-%E2%96%B6-ff2e93?style=for-the-badge&labelColor=12002b" alt="Explore Fly-Surfer" /></a>
+<a href="https://github.com/Metadore/fly-surfer"><img src="https://img.shields.io/badge/EXPLORE_PROJECT-%E2%96%B6-ff2e93?style=for-the-badge&labelColor=12002b" alt="Explore Fly-Surfer" /></a>
 
 </td>
 <td width="50%" valign="top">
@@ -79,7 +79,7 @@ A computational neuroscience experiment combining connectomics, spiking neural n
 
 Designed as a controlled playground for experimentation and future AI integration.
 
-<a href="https://github.com/Metadore/REPLACE-WITH-REPO-NAME"><img src="https://img.shields.io/badge/EXPLORE_PROJECT-%E2%96%B6-00e5c7?style=for-the-badge&labelColor=12002b" alt="Explore Endless Surfer" /></a>
+<a href="https://github.com/Metadore/endless-surfer"><img src="https://img.shields.io/badge/EXPLORE_PROJECT-%E2%96%B6-00e5c7?style=for-the-badge&labelColor=12002b" alt="Explore Endless Surfer" /></a>
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ Designed as a controlled playground for experimentation and future AI integratio
 
 Exploring modern frontend development, animation, and interactive visual design.
 
-<a href="https://github.com/Metadore/REPLACE-WITH-REPO-NAME"><img src="https://img.shields.io/badge/EXPLORE_PROJECT-%E2%96%B6-a56bff?style=for-the-badge&labelColor=12002b" alt="Explore Arcos" /></a>
+<a href="https://github.com/Metadore/arcos"><img src="https://img.shields.io/badge/EXPLORE_PROJECT-%E2%96%B6-a56bff?style=for-the-badge&labelColor=12002b" alt="Explore Arcos" /></a>
 
 </td>
 <td width="50%" valign="top">
@@ -103,7 +103,7 @@ Exploring modern frontend development, animation, and interactive visual design.
 
 Authentication, backend architecture, databases, and modern application development.
 
-<a href="https://github.com/Metadore/REPLACE-WITH-REPO-NAME"><img src="https://img.shields.io/badge/EXPLORE_PROJECT-%E2%96%B6-ff8a00?style=for-the-badge&labelColor=12002b" alt="Explore The Dark Chronicles" /></a>
+<a href="https://github.com/Metadore/the-dark-chronicles"><img src="https://img.shields.io/badge/EXPLORE_PROJECT-%E2%96%B6-ff8a00?style=for-the-badge&labelColor=12002b" alt="Explore The Dark Chronicles" /></a>
 
 </td>
 </tr>
